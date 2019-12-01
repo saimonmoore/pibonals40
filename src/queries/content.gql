@@ -1,0 +1,17 @@
+query ContentQuery {
+  allContentJson {
+    edges {
+      node {
+        name
+        description
+        content {
+          name
+          photo
+          video
+          words
+          password
+        }
+      }
+    }
+  }
+}
