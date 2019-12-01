@@ -1097,6 +1097,11 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
+"@rehooks/local-storage@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@rehooks/local-storage/-/local-storage-1.7.0.tgz#f6351b61254e07288d0dcfce9aea5602e09b134b"
+  integrity sha512-ETOgR7m3ObSbbL9Ydze8K+aXHmxbx7A5b1sTfDlnZcW8aYPogNBgVFaGcVPMobpqWkAoMK7UqGvYb+KomT5nuA==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -9642,6 +9647,11 @@ react@^16.12.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
+
+reactjs-popup@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/reactjs-popup/-/reactjs-popup-1.5.0.tgz#09ef15daf9bf932e9adbf595f3976851c24913cf"
+  integrity sha512-9uoxUAcUomnNoBtdYXBmgsF4w46llsogE3tOvLb5IkR5MMrD6UZJK20ip9kDKXCYubSxNkdfQKqSb/c95rf/qA==
 
 read-chunk@^3.2.0:
   version "3.2.0"
