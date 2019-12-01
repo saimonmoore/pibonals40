@@ -4,6 +4,17 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Video from "../components/video"
+
+const Person = ({ person: { id, name, password, photo, words } }) => {
+  return (
+    <li>
+      {name}
+      <Video id={id} />
+    </li>
+  )
+}
+
 const Groups = ({
   data: {
     allContentJson: { edges },
@@ -11,7 +22,15 @@ const Groups = ({
 }) => (
   <ul>
     {edges.map(({ node }, i) => (
-      <li>{node.name}</li>
+      <li>
+        <h4>{node.name}</h4>
+        <p>{node.description}</p>
+        <ul>
+          {node.content.map(person => (
+            <Person person={person} />
+          ))}
+        </ul>
+      </li>
     ))}
   </ul>
 )
@@ -25,9 +44,9 @@ const IndexPage = () => {
             name
             description
             content {
+              id
               name
               photo
-              video
               words
               password
             }
