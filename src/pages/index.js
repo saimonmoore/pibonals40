@@ -1,38 +1,40 @@
 import React from "react"
+import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Video from "../components/video"
+import Person from "../components/person"
 
-const Person = ({ person: { id, name, password, photo, words } }) => {
-  return (
-    <li>
-      {name}
-      <Video id={id} />
-    </li>
-  )
-}
+const GroupContainer = styled.ul`
+  list-style: none;
+  height: auto;
+`
+const PeopleInGroup = styled.ul`
+  list-style: none;
+  display: flex;
+  justify-content: flex;
+`
 
 const Groups = ({
   data: {
     allContentJson: { edges },
   },
 }) => (
-  <ul>
+  <GroupContainer>
     {edges.map(({ node }, i) => (
       <li>
         <h4>{node.name}</h4>
         <p>{node.description}</p>
-        <ul>
+        <PeopleInGroup>
           {node.content.map(person => (
             <Person person={person} />
           ))}
-        </ul>
+        </PeopleInGroup>
       </li>
     ))}
-  </ul>
+  </GroupContainer>
 )
 
 const IndexPage = () => {
