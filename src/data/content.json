@@ -4,6 +4,7 @@
     "description": "bla bla...",
     "content": [
       {
+        "id": "maria-vila",
         "name": "Maria Vila",
         "password": "papapa",
         "photo": "./data/photos/maria-vila.png",
@@ -11,6 +12,7 @@
         "words": "./data/words/maria-vila.png"
       },
       {
+        "id": "ester-tor",
         "name": "Ester Tor",
         "password": "papapa",
         "photo": "./data/photos/ester-tor.png",
@@ -24,6 +26,7 @@
     "description": "bla bla...",
     "content": [
       {
+        "id": "cristina-mayordomo",
         "name": "Cristina Mayordomo",
         "password": "papapa",
         "photo": "./data/photos/cristina-mayordomo.png",
@@ -31,6 +34,7 @@
         "words": "./data/words/cristina-mayordomo.png"
       },
       {
+        "id": "saimon-moore",
         "name": "Saimon Moore",
         "password": "papapa",
         "photo": "./data/photos/saimon-moore.png",
@@ -44,6 +48,7 @@
     "description": "bla bla...",
     "content": [
       {
+        "id": "ceci-ripoll",
         "name": "Cecilia Ripoll Pinyol",
         "password": "papapa",
         "photo": "./data/photos/ceci-ripoll.png",
@@ -51,6 +56,7 @@
         "words": "./data/words/ceci-ripoll.png"
       },
       {
+        "id": "anna-ripoll",
         "name": "Anna Ripoll Pinyol",
         "password": "papapa",
         "photo": "./data/photos/anna-ripoll.png",
@@ -64,6 +70,7 @@
     "description": "bla bla...",
     "content": [
       {
+        "id": "mireia-olle",
         "name": "Mireia Olle",
         "password": "papapa",
         "photo": "./data/photos/mireia-olle.png",
@@ -77,6 +84,7 @@
     "description": "bla bla...",
     "content": [
       {
+        "id": "cris-foo",
         "name": "Cristina Foo",
         "password": "papapa",
         "photo": "./data/photos/cris-foo.png",
@@ -90,6 +98,7 @@
     "description": "bla bla...",
     "content": [
       {
+        "id": "mireia-cano",
         "name": "Mireia Cano",
         "password": "papapa",
         "photo": "./data/photos/mireia-cano.png",
@@ -97,6 +106,7 @@
         "words": "./data/words/mireia-cano.png"
       },
       {
+        "id": "elisenda-carrasco",
         "name": "Elisenda Carrasco",
         "password": "papapa",
         "photo": "./data/photos/elisenda-carrasco.png",
@@ -110,6 +120,7 @@
     "description": "Departament d'IP Almirall",
     "content": [
       {
+        "id": "maria-prat",
         "name": "Maria Prat",
         "password": "papapa",
         "photo": "./data/photos/maria-prat.png",
