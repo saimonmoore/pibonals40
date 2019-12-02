@@ -27,12 +27,12 @@ const Groups = ({
 }) => (
   <GroupContainer>
     {edges.map(({ node }, i) => (
-      <li>
+      <li key={i}>
         <h4>{node.name}</h4>
         <p>{node.description}</p>
         <PeopleInGroup>
           {node.content.map(person => (
-            <Person person={person} />
+            <Person person={person} key={person.id} />
           ))}
         </PeopleInGroup>
       </li>

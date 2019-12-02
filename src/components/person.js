@@ -30,13 +30,13 @@ const PasswordForm = ({
     <Popup
       open={showPasswordForm}
       modal={true}
-      position="center"
+      position="center center"
       onClose={() => setShowPasswordForm(false)}
     >
       <div>
-        <label>Clau de pas:</label>
         <input
-          type="text"
+          type="password"
+          placeholder="Has trovat la paraula Eulàlia..."
           onChange={event => setPasswordValue(event.target.value)}
         />
       </div>
@@ -48,7 +48,7 @@ const PersonContent = ({ id, showContent, setShowContent }) => {
   return (
     <Popup
       open={showContent}
-      position="right center"
+      position="center center"
       modal={true}
       onClose={() => setShowContent(false)}
     >

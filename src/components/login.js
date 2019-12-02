@@ -65,8 +65,12 @@ const PasswordForm = ({ password, setUnlocked }) => {
 const Login = ({ children, password }) => {
   const eternallyUnlocked = getFromStore(STORAGE_KEY)
   const [unlocked, setUnlocked] = useState(false)
+  const showContent = eternallyUnlocked || unlocked
 
-  if (eternallyUnlocked || unlocked) return children
+  if (showContent) {
+    return children
+  }
+
   return (
     <FakeBgImage>
       <Content>
