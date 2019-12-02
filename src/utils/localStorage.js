@@ -1,11 +1,11 @@
 export const getFromStore = key => {
-  if (!window && window.localStorage) return
+  if (typeof window === `undefined`) return
 
   return window.localStorage.getItem(key)
 }
 
 export const writeToStore = (key, value) => {
-  if (!(window && window.localStorage)) return
+  if (typeof window === `undefined`) return
 
   return window.localStorage.setItem(key, value)
 }
