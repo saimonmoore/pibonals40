@@ -2,10 +2,13 @@ import React from "react"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Login from "../components/login"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Person from "../components/person"
+
+const THE_PASSWORD = "llobarroals40"
 
 const GroupContainer = styled.ul`
   list-style: none;
@@ -59,12 +62,14 @@ const IndexPage = () => {
   `)
 
   return (
-    <Layout>
-      <SEO title="Home" />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Groups data={data} />
-      </div>
-    </Layout>
+    <Login password={THE_PASSWORD}>
+      <Layout>
+        <SEO title="Home" />
+        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+          <Groups data={data} />
+        </div>
+      </Layout>
+    </Login>
   )
 }
 
