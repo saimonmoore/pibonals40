@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 
+import { getFromStore, writeToStore } from "../utils/localStorage"
 import BankVaultImage from "../images/bank-vault-steel-door.jpg"
-
-import { writeStorage, useLocalStorage } from "@rehooks/local-storage"
 
 const STORAGE_KEY = "pibonals40power"
 
@@ -50,7 +49,7 @@ const PasswordForm = ({ password, setUnlocked }) => {
   useEffect(() => {
     if (password === passwordValue) {
       setUnlocked(true)
-      writeStorage(STORAGE_KEY, true)
+      writeToStore(STORAGE_KEY, true)
     }
   })
 
@@ -64,7 +63,7 @@ const PasswordForm = ({ password, setUnlocked }) => {
 }
 
 const Login = ({ children, password }) => {
-  const [eternallyUnlocked] = useLocalStorage(STORAGE_KEY)
+  const eternallyUnlocked = getFromStore(STORAGE_KEY)
   const [unlocked, setUnlocked] = useState(false)
 
   if (eternallyUnlocked || unlocked) return children

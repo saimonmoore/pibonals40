@@ -51,8 +51,6 @@ const IndexPage = () => {
             content {
               id
               name
-              photo
-              words
               password
             }
           }

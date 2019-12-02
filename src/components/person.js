@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react"
 import Popup from "reactjs-popup"
 import styled from "styled-components"
 
-import { writeStorage, useLocalStorage } from "@rehooks/local-storage"
-
+import { getFromStore, writeToStore } from "../utils/localStorage"
 import Video from "../components/video"
 import Photo from "../components/photo.js"
 
@@ -22,7 +21,7 @@ const PasswordForm = ({
   useEffect(() => {
     if (password === passwordValue) {
       setAllowContent(true)
-      writeStorage(storageKey(id), true)
+      writeToStore(storageKey(id), true)
       setShowPasswordForm(false)
     }
   })
@@ -60,8 +59,8 @@ const PersonContent = ({ id, showContent, setShowContent }) => {
   )
 }
 
-const Entry = ({ id, name, password, photo }) => {
-  const [contentUnlocked] = useLocalStorage(storageKey(id))
+const Entry = ({ id, name, password }) => {
+  const contentUnlocked = getFromStore(storageKey(id))
   const [showPasswordForm, setShowPasswordForm] = useState(false)
   const [allowContent, setAllowContent] = useState(false)
   const [showContent, setShowContent] = useState(false)
@@ -104,10 +103,10 @@ const Entry = ({ id, name, password, photo }) => {
   )
 }
 
-const Person = ({ person: { id, name, password, photo, words } }) => {
+const Person = ({ person: { id, name, password } }) => {
   return (
     <div>
-      <Entry id={id} name={name} password={password} photo={photo} />
+      <Entry id={id} name={name} password={password} />
     </div>
   )
 }
