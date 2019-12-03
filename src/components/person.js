@@ -4,7 +4,14 @@ import styled from "styled-components"
 import createPersistedState from "use-persisted-state"
 
 import Video from "../components/video"
-import Photo from "../components/photo.js"
+import Photo from "../components/photo"
+import ExtraPhotos from "../components/extra_photos"
+
+const PasswordField = styled.input`
+  height: 50px;
+  width: 600px;
+  font-size: 2em;
+`
 
 const storageKey = id => `${id}-unlocked`
 const StyledPerson = styled.li``
@@ -19,7 +26,7 @@ const PasswordForm = ({
   const [passwordValue, setPasswordValue] = useState("")
 
   useEffect(() => {
-    if (password === passwordValue) {
+    if (password.toLowerCase() === passwordValue.toLowerCase()) {
       setAllowContent(true)
       setContentUnlocked(true)
       setShowPasswordForm(false)
@@ -34,9 +41,9 @@ const PasswordForm = ({
       onClose={() => setShowPasswordForm(false)}
     >
       <div>
-        <input
+        <PasswordField
           type="password"
-          placeholder="Has trovat la paraula Eulàlia..."
+          placeholder="Has trovat la paraula Eulàlia?"
           onChange={event => setPasswordValue(event.target.value)}
         />
       </div>
@@ -44,7 +51,13 @@ const PasswordForm = ({
   )
 }
 
-const PersonContent = ({ id, showContent, setShowContent }) => {
+const MessageWrapper = styled.div`
+  border: 1px dashed green;
+`
+
+const Message = ({ message }) => <MessageWrapper>{message}</MessageWrapper>
+
+const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
   return (
     <Popup
       open={showContent}
@@ -54,12 +67,14 @@ const PersonContent = ({ id, showContent, setShowContent }) => {
     >
       <div>
         <Video id={id} />
+        {message && <Message message={message} />}
+        <ExtraPhotos id={id} name={name} />
       </div>
     </Popup>
   )
 }
 
-const Entry = ({ id, name, password }) => {
+const Entry = ({ id, name, message, password }) => {
   const useLockedState = createPersistedState(storageKey(id))
   const [contentUnlocked, setContentUnlocked] = useLockedState(false)
 
@@ -97,6 +112,8 @@ const Entry = ({ id, name, password }) => {
       {allowContent && (
         <PersonContent
           id={id}
+          name={name}
+          message={message}
           showContent={showContent}
           setShowContent={setShowContent}
         />
