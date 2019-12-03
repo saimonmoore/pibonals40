@@ -62,7 +62,7 @@ const IndexPage = () => {
   return (
     <Login password={THE_PASSWORD}>
       <Layout>
-        <SEO title="Home" />
+        <SEO title="Eulàlia" />
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
           <Groups data={data} />
         </div>

@@ -1,7 +1,7 @@
 [
   {
-    "name": "Quimics",
-    "description": "bla bla...",
+    "name": "Químics",
+    "description": "Life is chemistry...",
     "content": [
       {
         "id": "maria-vila",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Cerveses Cetonics",
-    "description": "bla bla...",
+    "description": "Mojito anyone?",
     "content": [
       {
         "id": "cristina-mayordomo",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "name": "Familia Pinyol",
+    "name": "Família Pinyol",
     "description": "bla bla...",
     "content": [
       {
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "Familia Olle",
+    "name": "Família Ollé",
     "description": "bla bla...",
     "content": [
       {
@@ -73,7 +73,7 @@
   },
   {
     "name": "Nenes",
-    "description": "bla bla...",
+    "description": "Les meves nenes...",
     "content": [
       {
         "id": "cris-foo",
@@ -85,7 +85,7 @@
   },
   {
     "name": "Voxalba",
-    "description": "Cor Femeni Voxalba",
+    "description": "Cor Femení Voxalba",
     "content": [
       {
         "id": "ayesha-mendham",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Almirall",
-    "description": "Departament d'IP Almirall",
+    "description": "Intellectual Proficiency",
     "content": [
       {
         "id": "maria-prat",
