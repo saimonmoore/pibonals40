@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "Cerveses Cetonics",
+    "name": "Cerveses Cetònics",
     "description": "Mojito anyone?",
     "content": [
       {
@@ -118,5 +118,10 @@
         "message": null
       }
     ]
+  },
+  {
+    "name": "Diumenge junts?",
+    "description": "Life is chemistry...",
+    "content": []
   }
 ]
