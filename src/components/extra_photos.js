@@ -3,24 +3,22 @@ import styled from "styled-components"
 
 import BertaFamilyPhoto from "../data/extra_photos/berta-calders/berta-family.jpeg"
 import EulaliaBertaPhoto from "../data/extra_photos/berta-calders/eulalia-berta.jpeg"
+import MireiaCanoPhoto from "../data/extra_photos/mireia-cano/escrit-per-eulalia.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
+  "mireia-cano": [MireiaCanoPhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]
 
 const Gallery = styled.div`
   display: flex;
-  align-items: left;
-  justify-content: center;
+  flex-direction: column;
 `
 
 const Img = styled.img`
-  min-height: 200px;
-  min-width: 200px;
   margin-right: 50px;
-  cursor: pointer;
 `
 
 const ExtraPhotos = ({ id, name }) => {

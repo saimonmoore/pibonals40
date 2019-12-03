@@ -53,9 +53,20 @@ const PasswordForm = ({
 
 const MessageWrapper = styled.div`
   border: 1px dashed green;
+  background-colour: antiquewhite;
+  margin-bottom: 25px;
 `
 
 const Message = ({ message }) => <MessageWrapper>{message}</MessageWrapper>
+
+const contentStyle = {
+  background: "rgba(255,255,255,0)",
+  border: "none",
+}
+
+const overlayStyle = {
+  overflowY: "scroll",
+}
 
 const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
   return (
@@ -63,6 +74,9 @@ const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
       open={showContent}
       position="center center"
       modal={true}
+      lockScroll={true}
+      contentStyle={contentStyle}
+      overlayStyle={overlayStyle}
       onClose={() => setShowContent(false)}
     >
       <div>
@@ -122,10 +136,10 @@ const Entry = ({ id, name, message, password }) => {
   )
 }
 
-const Person = ({ person: { id, name, password } }) => {
+const Person = ({ person: { id, name, password, message } }) => {
   return (
     <div>
-      <Entry id={id} name={name} password={password} />
+      <Entry id={id} name={name} password={password} message={message} />
     </div>
   )
 }

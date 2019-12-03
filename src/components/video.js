@@ -3,7 +3,6 @@ import React from "react"
 import EsterTorVideo from "../data/videos/ester-tor.mp4"
 import CeciRipollVideo from "../data/videos/ceci-ripoll.mp4"
 import AnnaRipollVideo from "../data/videos/anna-ripoll.mp4"
-import MireiaCanoVideo from "../data/videos/mireia-cano.mp4"
 import MireiaOlleVideo from "../data/videos/mireia-olle.mp4"
 import MariaVilaVideo from "../data/videos/maria-vila.mp4"
 import MariaPratVideo from "../data/videos/maria-prat.mp4"
@@ -16,7 +15,6 @@ const VIDEOS = {
   "ester-tor": EsterTorVideo,
   "anna-ripoll": AnnaRipollVideo,
   "ceci-ripoll": CeciRipollVideo,
-  "mireia-cano": MireiaCanoVideo,
   "mireia-olle": MireiaOlleVideo,
   "maria-vila": MariaVilaVideo,
   "maria-prat": MariaPratVideo,
