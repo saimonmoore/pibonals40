@@ -32,7 +32,9 @@ const Layout = ({ children }) => {
       />
       <div>
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()}, Built with ❤️</footer>
+        <footer style={{ color: "antiquewhite" }}>
+          © {new Date().getFullYear()} built with ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
+        </footer>
       </div>
     </>
   )

@@ -38,6 +38,7 @@ const Img = styled.img`
   max-height: 200px;
   max-width: 200px;
   margin-right: 50px;
+  border-radius: 15px;
   cursor: ${props => (props.contentUnlocked ? "pointer" : "help")};
 `
 
