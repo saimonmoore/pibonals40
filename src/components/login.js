@@ -78,20 +78,23 @@ const Login = ({ children, password }) => {
   if (showContent) {
     console.log("[Login] =====> RETURN CHILDREN!")
     return children
-  }
-  console.log("[Login] =====> RETURN FAKEBG!")
+  } else {
+    console.log("[Login] =====> RETURN FAKEBG!")
 
-  return (
-    <FakeBgImage>
-      <Content>
-        <PasswordForm
-          password={password}
-          setUnlocked={setUnlocked}
-          setEternallyUnlocked={setEternallyUnlocked}
-        />
-      </Content>
-    </FakeBgImage>
-  )
+    return (
+      <div>
+        <FakeBgImage>
+          <Content>
+            <PasswordForm
+              password={password}
+              setUnlocked={setUnlocked}
+              setEternallyUnlocked={setEternallyUnlocked}
+            />
+          </Content>
+        </FakeBgImage>
+      </div>
+    )
+  }
 }
 
 export default Login
