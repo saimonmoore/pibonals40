@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react"
+import createPersistedState from "use-persisted-state"
 import styled from "styled-components"
 
 import { getFromStore, writeToStore } from "../utils/localStorage"
 import BankVaultImage from "../images/bank-vault-steel-door.jpg"
 
 const STORAGE_KEY = "pibonals40power"
+const useLockedState = createPersistedState("locked")
 
 const Content = styled.div`
   display: flex;
@@ -43,13 +45,13 @@ const VaultPasswordInput = styled.input`
   font-size: 2em;
 `
 
-const PasswordForm = ({ password, setUnlocked }) => {
+const PasswordForm = ({ password, setUnlocked, setEternallyUnlocked }) => {
   const [passwordValue, setPasswordValue] = useState("")
 
   useEffect(() => {
     if (password === passwordValue) {
       setUnlocked(true)
-      writeToStore(STORAGE_KEY, true)
+      setEternallyUnlocked(true)
     }
   })
 
@@ -63,7 +65,8 @@ const PasswordForm = ({ password, setUnlocked }) => {
 }
 
 const Login = ({ children, password }) => {
-  const eternallyUnlocked = getFromStore(STORAGE_KEY)
+  // const eternallyUnlocked = getFromStore(STORAGE_KEY)
+  const [eternallyUnlocked, setEternallyUnlocked] = useLockedState(false)
   const [unlocked, setUnlocked] = useState(false)
   const showContent = eternallyUnlocked || unlocked
 
@@ -74,7 +77,11 @@ const Login = ({ children, password }) => {
   return (
     <FakeBgImage>
       <Content>
-        <PasswordForm password={password} setUnlocked={setUnlocked} />
+        <PasswordForm
+          password={password}
+          setUnlocked={setUnlocked}
+          setEternallyUnlocked={setEternallyUnlocked}
+        />
       </Content>
     </FakeBgImage>
   )
