@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `PIBON ALS 40`,
-    description: `Celebrem els 40 anys maravilloses de l'Eulalia Pinyol Olle`,
-    author: `@gatsbyjs`,
+    title: `Pibon Als 40`,
+    description: `Celebrem els 40 anys maravillosos de l'Eulàlia Pinyol Ollé`,
+    author: `@excsm`,
   },
   plugins: [
     `gatsby-transformer-json`,

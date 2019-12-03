@@ -53,7 +53,8 @@ const PasswordForm = ({
 
 const MessageWrapper = styled.div`
   border: 1px dashed green;
-  background-colour: antiquewhite;
+  background-color: antiquewhite;
+  margin-top: 50px;
   margin-bottom: 25px;
 `
 
@@ -102,6 +103,7 @@ const Entry = ({ id, name, message, password }) => {
         <Photo
           id={id}
           name={name}
+          contentUnlocked={contentUnlocked}
           onClick={() => {
             if (contentUnlocked) {
               setAllowContent(true)

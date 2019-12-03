@@ -28,8 +28,7 @@ const Groups = ({
   <GroupContainer>
     {edges.map(({ node }, i) => (
       <li key={i}>
-        <h4>{node.name}</h4>
-        <p>{node.description}</p>
+        <h4 style={{ color: "antiquewhite" }}>{node.name}</h4>
         <PeopleInGroup>
           {node.content.map(person => (
             <Person person={person} key={person.id} />

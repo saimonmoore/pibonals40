@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -25,7 +26,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header
+        siteTitle={data.site.siteMetadata.title}
+        description={data.site.siteMetadata.description}
+      />
       <div>
         <main>{children}</main>
         <footer>© {new Date().getFullYear()}, Built with ❤️</footer>
