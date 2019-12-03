@@ -67,20 +67,9 @@ const Login = ({ children, password }) => {
   const [unlocked, setUnlocked] = useState(false)
   const showContent = eternallyUnlocked || unlocked
 
-  console.log(
-    "[Login] =====> eternallyUnlocked: ",
-    eternallyUnlocked,
-    typeof eternallyUnlocked
-  )
-  console.log("[Login] =====> unlocked: ", unlocked, typeof unlocked)
-  console.log("[Login] =====> showContent: ", showContent, typeof showContent)
-
   if (showContent) {
-    console.log("[Login] =====> RETURN CHILDREN!")
     return children
   } else {
-    console.log("[Login] =====> RETURN FAKEBG!")
-
     return (
       <div>
         <FakeBgImage>
