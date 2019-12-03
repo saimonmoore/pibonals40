@@ -2,10 +2,8 @@ import React, { useState, useEffect } from "react"
 import createPersistedState from "use-persisted-state"
 import styled from "styled-components"
 
-import { getFromStore, writeToStore } from "../utils/localStorage"
 import BankVaultImage from "../images/bank-vault-steel-door.jpg"
 
-const STORAGE_KEY = "pibonals40power"
 const useLockedState = createPersistedState("locked")
 
 const Content = styled.div`
@@ -65,14 +63,23 @@ const PasswordForm = ({ password, setUnlocked, setEternallyUnlocked }) => {
 }
 
 const Login = ({ children, password }) => {
-  // const eternallyUnlocked = getFromStore(STORAGE_KEY)
   const [eternallyUnlocked, setEternallyUnlocked] = useLockedState(false)
   const [unlocked, setUnlocked] = useState(false)
   const showContent = eternallyUnlocked || unlocked
 
+  console.log(
+    "[Login] =====> eternallyUnlocked: ",
+    eternallyUnlocked,
+    typeof eternallyUnlocked
+  )
+  console.log("[Login] =====> unlocked: ", unlocked, typeof unlocked)
+  console.log("[Login] =====> showContent: ", showContent, typeof showContent)
+
   if (showContent) {
+    console.log("[Login] =====> RETURN CHILDREN!")
     return children
   }
+  console.log("[Login] =====> RETURN FAKEBG!")
 
   return (
     <FakeBgImage>

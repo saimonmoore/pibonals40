@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import Popup from "reactjs-popup"
 import styled from "styled-components"
+import createPersistedState from "use-persisted-state"
 
-import { getFromStore, writeToStore } from "../utils/localStorage"
 import Video from "../components/video"
 import Photo from "../components/photo.js"
 
@@ -10,18 +10,18 @@ const storageKey = id => `${id}-unlocked`
 const StyledPerson = styled.li``
 
 const PasswordForm = ({
-  id,
   showPasswordForm,
   setShowPasswordForm,
   password,
   setAllowContent,
+  setContentUnlocked,
 }) => {
   const [passwordValue, setPasswordValue] = useState("")
 
   useEffect(() => {
     if (password === passwordValue) {
       setAllowContent(true)
-      writeToStore(storageKey(id), true)
+      setContentUnlocked(true)
       setShowPasswordForm(false)
     }
   })
@@ -60,7 +60,9 @@ const PersonContent = ({ id, showContent, setShowContent }) => {
 }
 
 const Entry = ({ id, name, password }) => {
-  const contentUnlocked = getFromStore(storageKey(id))
+  const useLockedState = createPersistedState(storageKey(id))
+  const [contentUnlocked, setContentUnlocked] = useLockedState(false)
+
   const [showPasswordForm, setShowPasswordForm] = useState(false)
   const [allowContent, setAllowContent] = useState(false)
   const [showContent, setShowContent] = useState(false)
@@ -86,11 +88,11 @@ const Entry = ({ id, name, password }) => {
         />
       </div>
       <PasswordForm
-        id={id}
         showPasswordForm={showPasswordForm}
         setShowPasswordForm={setShowPasswordForm}
         password={password}
         setAllowContent={setAllowContent}
+        setContentUnlocked={setContentUnlocked}
       />
       {allowContent && (
         <PersonContent
