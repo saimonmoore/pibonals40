@@ -47,7 +47,7 @@ const PasswordForm = ({ password, setUnlocked, setEternallyUnlocked }) => {
   const [passwordValue, setPasswordValue] = useState("")
 
   useEffect(() => {
-    if (password === passwordValue) {
+    if (password.toLowerCase() === passwordValue.toLowerCase()) {
       setUnlocked(true)
       setEternallyUnlocked(true)
     }

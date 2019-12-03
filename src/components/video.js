@@ -10,6 +10,7 @@ import MariaPratVideo from "../data/videos/maria-prat.mp4"
 import CristinaMayorodomoVideo from "../data/videos/cristina-mayordomo.mp4"
 import CrisFooVideo from "../data/videos/cris-foo.mp4"
 import SaimonMooreVideo from "../data/videos/saimon-moore.mp4"
+import AyeshaMendhamVideo from "../data/videos/ayesha-mendham.mp4"
 
 const VIDEOS = {
   "ester-tor": EsterTorVideo,
@@ -22,11 +23,16 @@ const VIDEOS = {
   "cristina-mayordomo": CristinaMayorodomoVideo,
   "cris-foo": CrisFooVideo,
   "saimon-moore": SaimonMooreVideo,
+  "ayesha-mendham": AyeshaMendhamVideo,
 }
 
 const mapToVideo = id => VIDEOS[id]
 
 const Video = ({ id }) => {
+  const video = mapToVideo(id)
+
+  if (!video) return null
+
   return (
     <div>
       <video controls>

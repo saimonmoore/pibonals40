@@ -6,12 +6,14 @@
       {
         "id": "maria-vila",
         "name": "Maria Vila",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       },
       {
         "id": "ester-tor",
         "name": "Ester Tor",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       }
     ]
   },
@@ -22,12 +24,14 @@
       {
         "id": "cristina-mayordomo",
         "name": "Cristina Mayordomo",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       },
       {
         "id": "saimon-moore",
         "name": "Saimon Moore",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       }
     ]
   },
@@ -38,12 +42,20 @@
       {
         "id": "ceci-ripoll",
         "name": "Cecilia Ripoll Pinyol",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       },
       {
         "id": "anna-ripoll",
         "name": "Anna Ripoll Pinyol",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
+      },
+      {
+        "id": "berta-calders",
+        "name": "Berta Calders",
+        "password": "cantaire",
+        "message": "Tu, la petita dels cosins grans. Jo, la gran dels cosins petits. Sento que sempre hi ha hagut un què especial. Espero que gaudeixis d'aquesta nova etapa cosineta! Una abraçada molt forta i feliços 40!"
       }
     ]
   },
@@ -54,7 +66,8 @@
       {
         "id": "mireia-olle",
         "name": "Mireia Olle",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       }
     ]
   },
@@ -65,23 +78,32 @@
       {
         "id": "cris-foo",
         "name": "Cristina Foo",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       }
     ]
   },
   {
     "name": "Voxalba",
-    "description": "bla bla...",
+    "description": "Cor Femeni Voxalba",
     "content": [
+      {
+        "id": "ayesha-mendham",
+        "name": "Ayesha Mendham",
+        "password": "guarra",
+        "message": null
+      },
       {
         "id": "mireia-cano",
         "name": "Mireia Cano",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       },
       {
         "id": "elisenda-carrasco",
         "name": "Elisenda Carrasco",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       }
     ]
   },
@@ -92,7 +114,8 @@
       {
         "id": "maria-prat",
         "name": "Maria Prat",
-        "password": "papapa"
+        "password": "papapa",
+        "message": null
       }
     ]
   }

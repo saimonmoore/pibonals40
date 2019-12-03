@@ -12,6 +12,8 @@ import CristinaMayorodomoPhoto from "../data/photos/cristina-mayordomo.png"
 import CrisFooPhoto from "../data/photos/cris-foo.png"
 import SaimonMoorePhoto from "../data/photos/saimon-moore.png"
 import ElisendaCarrascoPhoto from "../data/photos/elisenda-carrasco.png"
+import BertaCaldersPhoto from "../data/photos/berta-calders.jpg"
+import AyeshaMendhamPhoto from "../data/photos/ayesha-mendham.jpeg"
 
 const PHOTOS = {
   "ester-tor": EsterTorPhoto,
@@ -25,13 +27,15 @@ const PHOTOS = {
   "cris-foo": CrisFooPhoto,
   "saimon-moore": SaimonMoorePhoto,
   "elisenda-carrasco": ElisendaCarrascoPhoto,
+  "berta-calders": BertaCaldersPhoto,
+  "ayesha-mendham": AyeshaMendhamPhoto,
 }
 
 const mapToPhoto = id => PHOTOS[id]
 
 const Img = styled.img`
-  min-height: 200px;
-  min-width: 200px;
+  max-height: 200px;
+  max-width: 200px;
   margin-right: 50px;
   cursor: pointer;
 `
