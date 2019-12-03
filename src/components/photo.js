@@ -34,7 +34,7 @@ const PHOTOS = {
 const mapToPhoto = id => PHOTOS[id]
 
 const Img = styled.img`
-  opacity: ${props => (props.contentUnlocked ? 1 : 0.5)};
+  opacity: ${props => (props.contentUnlocked ? 1 : 0.1)};
   max-height: 200px;
   max-width: 200px;
   margin-right: 50px;
