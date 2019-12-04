@@ -7,12 +7,14 @@ import MireiaCanoPhoto from "../data/extra_photos/mireia-cano/escrit-per-eulalia
 import MariaVila1Photo from "../data/extra_photos/maria-vila/maria-vila-extra1.png"
 import MariaVila2Photo from "../data/extra_photos/maria-vila/maria-vila-extra2.png"
 import EulaliaMercePhoto from "../data/extra_photos/merce-pinyol/eulalia-i-merce.jpeg"
+import OlgaAdriaNotePhoto from "../data/extra_photos/olga-adria/olga-adria-note.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
   "mireia-cano": [MireiaCanoPhoto],
   "maria-vila": [MariaVila1Photo, MariaVila2Photo],
   "merce-pinyol": [EulaliaMercePhoto],
+  "olga-adria": [OlgaAdriaNotePhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

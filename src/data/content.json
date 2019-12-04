@@ -87,13 +87,13 @@
     ]
   },
   {
-    "name": "Nenes",
+    "name": "Coral Els Matiners",
     "description": "Les meves nenes...",
     "content": [
       {
-        "id": "cris-foo",
-        "name": "Cristina Foo",
-        "password": "papapa",
+        "id": "olga-adria",
+        "name": "Olga Adrià Serrano",
+        "password": "riallera",
         "hint": null,
         "message": null
       }
