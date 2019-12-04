@@ -103,6 +103,13 @@
         "password": "riallera",
         "hint": null,
         "message": null
+      },
+      {
+        "id": "jeni-roda",
+        "name": "Jeni Roda",
+        "password": "directora",
+        "hint": null,
+        "message": null
       }
     ]
   },
