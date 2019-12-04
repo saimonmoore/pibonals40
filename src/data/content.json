@@ -16,6 +16,13 @@
         "password": "papapa",
         "hint": null,
         "message": null
+      },
+      {
+        "id": "isabel-coromina",
+        "name": "Isabel Coromina",
+        "password": "pendo",
+        "hint": null,
+        "message": null
       }
     ]
   },
