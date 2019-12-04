@@ -20,6 +20,14 @@ const PeopleInGroup = styled.ul`
   justify-content: flex;
 `
 
+const GroupTitle = styled.h4`
+  width: 500px;
+`
+
+const GroupDescription = styled.span`
+  font-size: smaller;
+`
+
 const Groups = ({
   data: {
     allContentJson: { edges },
@@ -28,7 +36,10 @@ const Groups = ({
   <GroupContainer>
     {edges.map(({ node }, i) => (
       <li key={i}>
-        <h4 style={{ color: "antiquewhite" }}>{node.name}</h4>
+        <GroupTitle style={{ color: "antiquewhite" }}>
+          {node.name} &nbsp;
+          <GroupDescription>{node.description}</GroupDescription>
+        </GroupTitle>
         <PeopleInGroup>
           {node.content.map(person => (
             <Person person={person} key={person.id} />
