@@ -4,10 +4,13 @@ import styled from "styled-components"
 import BertaFamilyPhoto from "../data/extra_photos/berta-calders/berta-family.jpeg"
 import EulaliaBertaPhoto from "../data/extra_photos/berta-calders/eulalia-berta.jpeg"
 import MireiaCanoPhoto from "../data/extra_photos/mireia-cano/escrit-per-eulalia.jpeg"
+import MariaVila1Photo from "../data/extra_photos/maria-vila/maria-vila-extra1.png"
+import MariaVila2Photo from "../data/extra_photos/maria-vila/maria-vila-extra2.png"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
   "mireia-cano": [MireiaCanoPhoto],
+  "maria-vila": [MariaVila1Photo, MariaVila2Photo],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

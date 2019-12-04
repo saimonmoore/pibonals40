@@ -9,8 +9,8 @@ import ExtraPhotos from "../components/extra_photos"
 
 const PasswordField = styled.input`
   height: 50px;
-  width: 600px;
-  font-size: 2em;
+  width: 770px;
+  font-size: 1em;
 `
 
 const storageKey = id => `${id}-unlocked`
@@ -20,10 +20,13 @@ const PasswordForm = ({
   showPasswordForm,
   setShowPasswordForm,
   password,
+  hint,
   setAllowContent,
   setContentUnlocked,
 }) => {
   const [passwordValue, setPasswordValue] = useState("")
+
+  const placeholder = hint || "Has trovat la paraula Eulàlia?"
 
   useEffect(() => {
     if (password.toLowerCase() === passwordValue.toLowerCase()) {
@@ -43,7 +46,7 @@ const PasswordForm = ({
       <div>
         <PasswordField
           type="password"
-          placeholder="Has trovat la paraula Eulàlia?"
+          placeholder={placeholder}
           onChange={event => setPasswordValue(event.target.value)}
         />
       </div>
@@ -89,7 +92,7 @@ const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
   )
 }
 
-const Entry = ({ id, name, message, password }) => {
+const Entry = ({ id, name, message, password, hint }) => {
   const useLockedState = createPersistedState(storageKey(id))
   const [contentUnlocked, setContentUnlocked] = useLockedState(false)
 
@@ -122,6 +125,7 @@ const Entry = ({ id, name, message, password }) => {
         showPasswordForm={showPasswordForm}
         setShowPasswordForm={setShowPasswordForm}
         password={password}
+        hint={hint}
         setAllowContent={setAllowContent}
         setContentUnlocked={setContentUnlocked}
       />
@@ -138,10 +142,16 @@ const Entry = ({ id, name, message, password }) => {
   )
 }
 
-const Person = ({ person: { id, name, password, message } }) => {
+const Person = ({ person: { id, name, password, message, hint } }) => {
   return (
     <div>
-      <Entry id={id} name={name} password={password} message={message} />
+      <Entry
+        id={id}
+        name={name}
+        password={password}
+        message={message}
+        hint={hint}
+      />
     </div>
   )
 }

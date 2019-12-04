@@ -52,6 +52,7 @@ const IndexPage = () => {
               name
               password
               message
+              hint
             }
           }
         }
