@@ -2,14 +2,17 @@ import React from "react"
 import styled from "styled-components"
 
 import NeusChicorDoc from "../data/documents/neus-chicor/40-anys-eulalia.pdf"
+import MercePinyolDoc from "../data/documents/merce-pinyol/merce-pinyol-poem.pdf"
 
 const DOCS = {
   "neus-chicor": [NeusChicorDoc],
+  "merce-pinyol": [MercePinyolDoc],
 }
 
 const Gallery = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 25px;
 `
 
 const HtmlEmbed = ({ doc }) => (

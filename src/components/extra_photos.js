@@ -26,6 +26,7 @@ const mapToPhoto = id => EXTRA_PHOTOS[id]
 const Gallery = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 25px;
 `
 
 const Img = styled.img`
