@@ -3,10 +3,12 @@ import styled from "styled-components"
 
 import NeusChicorDoc from "../data/documents/neus-chicor/40-anys-eulalia.pdf"
 import MercePinyolDoc from "../data/documents/merce-pinyol/merce-pinyol-poem.pdf"
+import MartaCasajuanaDoc from "../data/documents/marta-casajuana/marta-casajuana-wishes.pdf"
 
 const DOCS = {
   "neus-chicor": [NeusChicorDoc],
   "merce-pinyol": [MercePinyolDoc],
+  "marta-casajuana": [MartaCasajuanaDoc],
 }
 
 const Gallery = styled.div`
