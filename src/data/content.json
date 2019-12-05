@@ -27,6 +27,19 @@
     ]
   },
   {
+    "name": "Sunion",
+    "description": "T’evocaré de lluny...",
+    "content": [
+      {
+        "id": "neus-chicor",
+        "name": "Neus Chicor",
+        "password": "erudita",
+        "hint": null,
+        "message": null
+      }
+    ]
+  },
+  {
     "name": "Cerveses Cetònics",
     "description": "Mojito anyone?",
     "content": [
