@@ -4,6 +4,7 @@ import styled from "styled-components"
 import createPersistedState from "use-persisted-state"
 
 import Video from "../components/video"
+import Document from "../components/document"
 import Photo from "../components/photo"
 import ExtraPhotos from "../components/extra_photos"
 
@@ -84,8 +85,9 @@ const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
       onClose={() => setShowContent(false)}
     >
       <div>
-        <Video id={id} />
         {message && <Message message={message} />}
+        <Video id={id} />
+        <Document id={id} />
         <ExtraPhotos id={id} name={name} />
       </div>
     </Popup>
