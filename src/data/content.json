@@ -164,6 +164,12 @@
         "name": "Laia de las Heras",
         "password": "incansable",
         "hint": null
+      },
+      {
+        "id": "ariadna-decasacuberta",
+        "name": "Ariadna de Casacuberta",
+        "password": "discrecio",
+        "hint": null
       }
     ]
   },
