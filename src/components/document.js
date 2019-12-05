@@ -6,6 +6,7 @@ import MercePinyolDoc from "../data/documents/merce-pinyol/merce-pinyol-poem.pdf
 import MartaCasajuanaDoc from "../data/documents/marta-casajuana/marta-casajuana-wishes.pdf"
 import MartaEstebanDoc from "../data/documents/marta-esteban/marta-esteban-wishes.pdf"
 import BertaCaldersDoc from "../data/documents/berta-calders/berta-calders-wishes.pdf"
+import LaiaDeLasHerasDoc from "../data/documents/laia-delasheras/laia-delasheras-wishes.pdf"
 
 const DOCS = {
   "neus-chicor": [NeusChicorDoc],
@@ -13,6 +14,7 @@ const DOCS = {
   "marta-casajuana": [MartaCasajuanaDoc],
   "marta-esteban": [MartaEstebanDoc],
   "berta-calders": [BertaCaldersDoc],
+  "laia-delasheras": [LaiaDeLasHerasDoc],
 }
 
 const Gallery = styled.div`

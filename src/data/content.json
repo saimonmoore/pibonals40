@@ -158,6 +158,12 @@
         "name": "Amanda Laporte",
         "password": "cafe",
         "hint": null
+      },
+      {
+        "id": "laia-delasheras",
+        "name": "Laia de las Heras",
+        "password": "incansable",
+        "hint": null
       }
     ]
   },
