@@ -55,15 +55,6 @@ const PasswordForm = ({
   )
 }
 
-const MessageWrapper = styled.div`
-  border: 1px dashed green;
-  background-color: antiquewhite;
-  margin-top: 50px;
-  margin-bottom: 25px;
-`
-
-const Message = ({ message }) => <MessageWrapper>{message}</MessageWrapper>
-
 const contentStyle = {
   background: "rgba(255,255,255,0)",
   border: "none",
@@ -73,7 +64,7 @@ const overlayStyle = {
   overflowY: "scroll",
 }
 
-const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
+const PersonContent = ({ id, name, showContent, setShowContent }) => {
   return (
     <Popup
       open={showContent}
@@ -85,7 +76,6 @@ const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
       onClose={() => setShowContent(false)}
     >
       <div>
-        {message && <Message message={message} />}
         <Video id={id} />
         <Document id={id} />
         <ExtraPhotos id={id} name={name} />
@@ -94,7 +84,7 @@ const PersonContent = ({ id, message, name, showContent, setShowContent }) => {
   )
 }
 
-const Entry = ({ id, name, message, password, hint }) => {
+const Entry = ({ id, name, password, hint }) => {
   const useLockedState = createPersistedState(storageKey(id))
   const [contentUnlocked, setContentUnlocked] = useLockedState(false)
 
@@ -135,7 +125,6 @@ const Entry = ({ id, name, message, password, hint }) => {
         <PersonContent
           id={id}
           name={name}
-          message={message}
           showContent={showContent}
           setShowContent={setShowContent}
         />
@@ -144,16 +133,10 @@ const Entry = ({ id, name, message, password, hint }) => {
   )
 }
 
-const Person = ({ person: { id, name, password, message, hint } }) => {
+const Person = ({ person: { id, name, password, hint } }) => {
   return (
     <div>
-      <Entry
-        id={id}
-        name={name}
-        password={password}
-        message={message}
-        hint={hint}
-      />
+      <Entry id={id} name={name} password={password} hint={hint} />
     </div>
   )
 }

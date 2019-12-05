@@ -62,7 +62,6 @@ const IndexPage = () => {
               id
               name
               password
-              message
               hint
             }
           }

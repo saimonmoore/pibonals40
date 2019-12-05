@@ -7,22 +7,19 @@
         "id": "maria-vila",
         "name": "Maria Vila",
         "password": "donettes",
-        "hint": "allò fosc, amb forat , s'hi pot posar el dit i dóna plaer... ;)",
-        "message": null
+        "hint": "allò fosc, amb forat , s'hi pot posar el dit i dóna plaer... ;)"
       },
       {
         "id": "ester-tor",
         "name": "Ester Tor",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "isabel-coromina",
         "name": "Isabel Coromina",
         "password": "pendo",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -34,8 +31,7 @@
         "id": "neus-chicor",
         "name": "Neus Chicor",
         "password": "erudita",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -47,15 +43,13 @@
         "id": "cristina-mayordomo",
         "name": "Cristina Mayordomo",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "saimon-moore",
         "name": "Saimon Moore",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -67,29 +61,25 @@
         "id": "ceci-ripoll",
         "name": "Cecilia Ripoll Pinyol",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "anna-ripoll",
         "name": "Anna Ripoll Pinyol",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "berta-calders",
         "name": "Berta Calders",
         "password": "cantaire",
-        "hint": null,
-        "message": "Tu, la petita dels cosins grans. Jo, la gran dels cosins petits. Sento que sempre hi ha hagut un què especial. Espero que gaudeixis d'aquesta nova etapa cosineta! Una abraçada molt forta i feliços 40!"
+        "hint": null
       },
       {
         "id": "merce-pinyol",
         "name": "Mercè Pinyol Balasch",
         "password": "madrastra",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -101,8 +91,7 @@
         "id": "mireia-olle",
         "name": "Mireia Olle",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -114,15 +103,13 @@
         "id": "olga-adria",
         "name": "Olga Adrià Serrano",
         "password": "riallera",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "jeni-roda",
         "name": "Jeni Roda",
         "password": "directora",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -134,43 +121,37 @@
         "id": "ayesha-mendham",
         "name": "Ayesha Mendham",
         "password": "guarra",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "mireia-cano",
         "name": "Mireia Cano",
         "password": "presidenta",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "elisenda-carrasco",
         "name": "Elisenda Carrasco",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "anna-subirana",
         "name": "Anna Subirana",
         "password": "somriure",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "marta-casajuana",
         "name": "Marta Casajuana",
         "password": "espontanea",
-        "hint": null,
-        "message": null
+        "hint": null
       },
       {
         "id": "marta-esteban",
         "name": "Marta Esteban",
         "password": "picarona",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
@@ -182,8 +163,7 @@
         "id": "maria-prat",
         "name": "Maria Prat",
         "password": "papapa",
-        "hint": null,
-        "message": null
+        "hint": null
       }
     ]
   },
