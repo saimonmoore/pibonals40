@@ -9,6 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import Favicon16 from "../images/favicon-16x16.png"
+import Favicon32 from "../images/favicon-32x32.png"
+import AppleTouchIcon from "../images/apple-touch-icon.png"
+import SafariPinnedTabSvg from "../images/safari-pinned-tab.svg"
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -68,6 +72,30 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
+      link={[
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "16x16",
+          href: `${Favicon16}`,
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          sizes: "32x32",
+          href: `${Favicon32}`,
+        },
+        {
+          rel: "apple-touch-icon",
+          sizes: "180x180",
+          href: `${AppleTouchIcon}`,
+        },
+        {
+          rel: "mask-icon",
+          color: "#5bbad5",
+          href: `${SafariPinnedTabSvg}`,
+        },
+      ]}
     />
   )
 }

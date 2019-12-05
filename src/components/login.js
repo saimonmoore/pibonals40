@@ -55,9 +55,11 @@ const PasswordForm = ({ password, setUnlocked, setEternallyUnlocked }) => {
 
   return (
     <VaultPasswordInput
+      autofocus="true"
       type="password"
       placeholder="La coneixes?"
       onChange={event => setPasswordValue(event.target.value)}
+      ref={input => input && input.focus()}
     />
   )
 }

@@ -26,7 +26,6 @@ const PasswordForm = ({
   setContentUnlocked,
 }) => {
   const [passwordValue, setPasswordValue] = useState("")
-
   const placeholder = hint || "Has trovat la paraula Eulàlia?"
 
   useEffect(() => {
@@ -37,18 +36,25 @@ const PasswordForm = ({
     }
   })
 
+  const contentStyle = {
+    backgroundColor: "black",
+    border: "none",
+  }
+
   return (
     <Popup
       open={showPasswordForm}
+      contentStyle={contentStyle}
       modal={true}
       position="center center"
       onClose={() => setShowPasswordForm(false)}
     >
-      <div>
+      <div style={{ backgroundColor: "black" }}>
         <PasswordField
           type="password"
           placeholder={placeholder}
           onChange={event => setPasswordValue(event.target.value)}
+          ref={input => input && input.focus()}
         />
       </div>
     </Popup>
