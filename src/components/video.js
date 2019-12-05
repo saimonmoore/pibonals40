@@ -15,6 +15,7 @@ import AyeshaMendhamVideo from "../data/videos/ayesha-mendham.mp4"
 import OlgaAdriaVideo from "../data/videos/olga-adria.mp4"
 import AnnaSubiranaVideo from "../data/videos/anna-subirana.mp4"
 import AmandaLaporteVideo from "../data/videos/amanda-laporte.mp4"
+import ClaraRipollVideo from "../data/videos/clara-ripoll.mp4"
 
 const VIDEOS = {
   "ester-tor": [EsterTorVideo],
@@ -30,6 +31,7 @@ const VIDEOS = {
   "olga-adria": [OlgaAdriaVideo],
   "anna-subirana": [AnnaSubiranaVideo],
   "amanda-laporte": [AmandaLaporteVideo],
+  "clara-ripoll": [ClaraRipollVideo],
 }
 
 const Gallery = styled.div`

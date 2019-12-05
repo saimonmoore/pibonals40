@@ -64,6 +64,12 @@
         "hint": null
       },
       {
+        "id": "clara-ripoll",
+        "name": "Clara Ripoll Pinyol",
+        "password": "propia",
+        "hint": null
+      },
+      {
         "id": "anna-ripoll",
         "name": "Anna Ripoll Pinyol",
         "password": "papapa",
