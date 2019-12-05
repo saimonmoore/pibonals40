@@ -152,6 +152,12 @@
         "name": "Marta Esteban",
         "password": "picarona",
         "hint": null
+      },
+      {
+        "id": "amanda-laporte",
+        "name": "Amanda Laporte",
+        "password": "cafe",
+        "hint": null
       }
     ]
   },
