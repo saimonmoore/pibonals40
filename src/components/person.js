@@ -15,7 +15,7 @@ const PasswordField = styled.input`
 `
 
 const storageKey = id => `${id}-unlocked`
-const StyledPerson = styled.li``
+const StyledPerson = styled.div``
 
 const PasswordForm = ({
   showPasswordForm,
@@ -100,25 +100,23 @@ const Entry = ({ id, name, password, hint }) => {
 
   return (
     <StyledPerson>
-      <div>
-        <Photo
-          id={id}
-          name={name}
-          contentUnlocked={contentUnlocked}
-          onClick={() => {
-            if (contentUnlocked) {
-              setAllowContent(true)
-              return setShowContent(true)
-            }
+      <Photo
+        id={id}
+        name={name}
+        contentUnlocked={contentUnlocked}
+        onClick={() => {
+          if (contentUnlocked) {
+            setAllowContent(true)
+            return setShowContent(true)
+          }
 
-            if (allowContent) {
-              return setShowContent(true)
-            } else {
-              return setShowPasswordForm(true)
-            }
-          }}
-        />
-      </div>
+          if (allowContent) {
+            return setShowContent(true)
+          } else {
+            return setShowPasswordForm(true)
+          }
+        }}
+      />
       <PasswordForm
         showPasswordForm={showPasswordForm}
         setShowPasswordForm={setShowPasswordForm}
@@ -140,11 +138,7 @@ const Entry = ({ id, name, password, hint }) => {
 }
 
 const Person = ({ person: { id, name, password, hint } }) => {
-  return (
-    <div>
-      <Entry id={id} name={name} password={password} hint={hint} />
-    </div>
-  )
+  return <Entry id={id} name={name} password={password} hint={hint} />
 }
 
 export default Person

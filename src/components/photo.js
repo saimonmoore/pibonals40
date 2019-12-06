@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
+import LockImage from "../images/lock.png"
 import EsterTorPhoto from "../data/photos/ester-tor.png"
 import CeciRipollPhoto from "../data/photos/ceci-ripoll.png"
 import AnnaRipollPhoto from "../data/photos/anna-ripoll.png"
@@ -60,23 +61,40 @@ const PHOTOS = {
 const mapToPhoto = id => PHOTOS[id]
 
 const Img = styled.img`
+  position: relative;
+  top: -230px;
   opacity: ${props => (props.contentUnlocked ? 1 : 0.1)};
   max-height: 200px;
   max-width: 200px;
   margin-right: 50px;
   border-radius: 15px;
   cursor: ${props => (props.contentUnlocked ? "pointer" : "help")};
+  z-index: ${props => (props.contentUnlocked ? 20 : 10)};
 `
+const LockedImg = styled.img`
+  opacity: ${props => (props.contentUnlocked ? 0 : 0.5)};
+  max-height: 200px;
+  max-width: 200px;
+  margin-right: 50px;
+  border-radius: 15px;
+  cursor: ${props => (props.contentUnlocked ? "pointer" : "help")};
+  z-index: ${props => (props.contentUnlocked ? 10 : 20)};
+`
+
+const StyledPhoto = styled.div``
 
 const Photo = ({ id, name, contentUnlocked, onClick }) => {
   return (
-    <Img
-      src={mapToPhoto(id)}
-      contentUnlocked={contentUnlocked}
-      alt={name}
-      title={name}
-      onClick={onClick}
-    />
+    <StyledPhoto>
+      <LockedImg src={LockImage} alt={name} title={name} />
+      <Img
+        src={mapToPhoto(id)}
+        contentUnlocked={contentUnlocked}
+        alt={name}
+        title={name}
+        onClick={onClick}
+      ></Img>
+    </StyledPhoto>
   )
 }
 

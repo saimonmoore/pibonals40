@@ -15,17 +15,30 @@ const GroupContainer = styled.ul`
   height: auto;
 `
 const PeopleInGroup = styled.ul`
-  list-style: none;
   display: flex;
-  justify-content: flex;
+  justify-content: space-around;
+  list-style: none;
+  height: 250px;
+  margin: 0px;
 `
 
 const GroupTitle = styled.h4`
-  width: 500px;
+  min-width: 175px;
+  margin-right: 35px;
 `
 
-const GroupDescription = styled.span`
-  font-size: smaller;
+const GroupDescription = styled.div`
+  margin-top: 15px;
+  font-size: x-small;
+  font-style: italic;
+`
+
+const Group = styled.li`
+  display: flex;
+`
+
+const PersonItem = styled.li`
+  height: 250px;
 `
 
 const Groups = ({
@@ -35,17 +48,19 @@ const Groups = ({
 }) => (
   <GroupContainer>
     {edges.map(({ node }, i) => (
-      <li key={i}>
+      <Group key={i}>
         <GroupTitle style={{ color: "antiquewhite" }}>
           {node.name} &nbsp;
           <GroupDescription>{node.description}</GroupDescription>
         </GroupTitle>
         <PeopleInGroup>
           {node.content.map(person => (
-            <Person person={person} key={person.id} />
+            <PersonItem>
+              <Person person={person} key={person.id} />
+            </PersonItem>
           ))}
         </PeopleInGroup>
-      </li>
+      </Group>
     ))}
   </GroupContainer>
 )
