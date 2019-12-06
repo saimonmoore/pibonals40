@@ -63,7 +63,7 @@ const mapToPhoto = id => PHOTOS[id]
 const Img = styled.img`
   position: relative;
   top: -230px;
-  opacity: ${props => (props.contentUnlocked ? 1 : 0.1)};
+  opacity: ${props => (props.contentUnlocked ? 1 : 0.5)};
   max-height: 200px;
   max-width: 200px;
   margin-right: 50px;
