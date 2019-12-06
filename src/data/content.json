@@ -26,6 +26,12 @@
         "name": "Roger Amade",
         "password": "papapa",
         "hint": null
+      },
+      {
+        "id": "guillem-osca",
+        "name": "Guillem Osca",
+        "password": "petarda",
+        "hint": null
       }
     ]
   },

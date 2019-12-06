@@ -28,6 +28,7 @@ import LaiaDeLasHerasPhoto from "../data/photos/laia-de-las-heras.jpeg"
 import AriadnaDeCasacubertaPhoto from "../data/photos/ariadna-decasacuberta.jpeg"
 import ClaraRipollPhoto from "../data/photos/clara-ripoll.jpeg"
 import RogerAmadePhoto from "../data/photos/roger-amade.jpeg"
+import GuillemOscaPhoto from "../data/photos/guillem_osca.jpeg"
 
 const PHOTOS = {
   "ester-tor": EsterTorPhoto,
@@ -56,6 +57,7 @@ const PHOTOS = {
   "ariadna-decasacuberta": AriadnaDeCasacubertaPhoto,
   "clara-ripoll": ClaraRipollPhoto,
   "roger-amade": RogerAmadePhoto,
+  "guillem-osca": GuillemOscaPhoto,
 }
 
 const mapToPhoto = id => PHOTOS[id]
