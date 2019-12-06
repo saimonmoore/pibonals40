@@ -10,6 +10,7 @@ import EulaliaMercePhoto from "../data/extra_photos/merce-pinyol/eulalia-i-merce
 import OlgaAdriaNotePhoto from "../data/extra_photos/olga-adria/olga-adria-note.jpeg"
 import IsabelCorominaNotePhoto from "../data/extra_photos/isabel-coromina/isabel-coromina-note.jpeg"
 import JeniRodaNotePhoto from "../data/extra_photos/jeni-roda/jeni-roda-note.jpg"
+import RogerAmadeNotePhoto from "../data/extra_photos/roger-amade/roger-amade-paraules.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -19,6 +20,7 @@ const EXTRA_PHOTOS = {
   "olga-adria": [OlgaAdriaNotePhoto],
   "isabel-coromina": [IsabelCorominaNotePhoto],
   "jeni-roda": [JeniRodaNotePhoto],
+  "roger-amade": [RogerAmadeNotePhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

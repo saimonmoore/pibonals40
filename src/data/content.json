@@ -20,6 +20,12 @@
         "name": "Isabel Coromina",
         "password": "pendo",
         "hint": null
+      },
+      {
+        "id": "roger-amade",
+        "name": "Roger Amade",
+        "password": "papapa",
+        "hint": null
       }
     ]
   },
