@@ -32,6 +32,12 @@
         "name": "Guillem Osca",
         "password": "petarda",
         "hint": null
+      },
+      {
+        "id": "ivan-planes",
+        "name": "Ivan Planes",
+        "password": "trempada",
+        "hint": null
       }
     ]
   },
