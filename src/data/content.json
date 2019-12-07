@@ -112,8 +112,14 @@
     "description": "De part de Lia",
     "content": [
       {
+        "id": "ester-olle",
+        "name": "Ester Ollé",
+        "password": "empenta",
+        "hint": null
+      },
+      {
         "id": "mireia-olle",
-        "name": "Mireia Olle",
+        "name": "Mireia Ollé",
         "password": "cousin",
         "hint": null
       }
