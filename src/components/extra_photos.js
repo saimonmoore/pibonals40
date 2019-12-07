@@ -14,6 +14,7 @@ import RogerAmadeNotePhoto from "../data/extra_photos/roger-amade/roger-amade-pa
 import MireiaOllePhoto from "../data/extra_photos/mireia-olle/mireia-olle.jpeg"
 import IvanPlanesNotePhoto from "../data/extra_photos/ivan-planes/ivan-planes-note.jpeg"
 import IvanPlanesQuimicsPhoto from "../data/extra_photos/ivan-planes/ivan-planes-quimics.jpeg"
+import EsterTorNotePhoto from "../data/extra_photos/ester-tor/ester-tor-note.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -26,6 +27,7 @@ const EXTRA_PHOTOS = {
   "roger-amade": [RogerAmadeNotePhoto],
   "mireia-olle": [MireiaOllePhoto],
   "ivan-planes": [IvanPlanesNotePhoto, IvanPlanesQuimicsPhoto],
+  "ester-tor": [EsterTorNotePhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]
