@@ -22,6 +22,12 @@
         "hint": null
       },
       {
+        "id": "mariona-coll",
+        "name": "Mariona Coll",
+        "password": "vichy",
+        "hint": null
+      },
+      {
         "id": "roger-amade",
         "name": "Roger Amade",
         "password": "maduixeta",
