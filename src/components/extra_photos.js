@@ -26,6 +26,18 @@ import AnnaRipollLalaSusanaIngridPhoto from "../data/extra_photos/anna-ripoll/La
 import AnnaRipollLalaCeciPhoto from "../data/extra_photos/anna-ripoll/Lala, Ceci i jo.jpg"
 import AnnaRipollLalaPhoto from "../data/extra_photos/anna-ripoll/Lala.jpg"
 import AnnaRipollNensPhoto from "../data/extra_photos/anna-ripoll/Nens lala i cosins.jpg"
+import HelenaEulaliaCabellCurt from "../data/extra_photos/helena-ceci-santi/eulalia-cabell-curt.jpeg"
+import HelenaEulaliaCeciNensMuntanya from "../data/extra_photos/helena-ceci-santi/eulalia-ceci-nens-muntanya.jpg"
+import HelenaEulaliaDonantPit from "../data/extra_photos/helena-ceci-santi/eulalia-donant-pit.jpg"
+import HelenaEulaliaEliaPetita from "../data/extra_photos/helena-ceci-santi/eulalia-elia-petita.jpeg"
+import HelenaEulaliaEliaPol from "../data/extra_photos/helena-ceci-santi/eulalia-elia-pol.jpeg"
+import HelenaEulaliaFamily from "../data/extra_photos/helena-ceci-santi/eulalia-family.jpeg"
+import HelenaEulaliaEsquiant from "../data/extra_photos/helena-ceci-santi/eulalia-helena-elia-esquiant.jpeg"
+import HelenaEulaliaHelenaElia from "../data/extra_photos/helena-ceci-santi/eulalia-helena-elia.jpeg"
+import HelenaEulaliaNens from "../data/extra_photos/helena-ceci-santi/eulalia-nens.jpeg"
+import HelenaEulaliaPicnic from "../data/extra_photos/helena-ceci-santi/eulalia-picnic.jpeg"
+import HelenaEulaliaPolBebe from "../data/extra_photos/helena-ceci-santi/eulalia-pol-bebe.jpeg"
+import HelenaEulaliaPolPetit from "../data/extra_photos/helena-ceci-santi/eulalia-pol-petit.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -49,6 +61,20 @@ const EXTRA_PHOTOS = {
     AnnaRipollLalaCeciPhoto,
     AnnaRipollLalaPhoto,
     AnnaRipollNensPhoto,
+  ],
+  "helena-ceci-santi": [
+    HelenaEulaliaHelenaElia,
+    HelenaEulaliaPicnic,
+    HelenaEulaliaEsquiant,
+    HelenaEulaliaPolPetit,
+    HelenaEulaliaCeciNensMuntanya,
+    HelenaEulaliaCabellCurt,
+    HelenaEulaliaNens,
+    HelenaEulaliaDonantPit,
+    HelenaEulaliaEliaPetita,
+    HelenaEulaliaEliaPol,
+    HelenaEulaliaFamily,
+    HelenaEulaliaPolBebe,
   ],
 }
 
