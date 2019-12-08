@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 import LockImage from "../images/lock.png"
 import EsterTorPhoto from "../data/photos/ester-tor.jpeg"
-import CeciRipollPhoto from "../data/photos/ceci-ripoll.png"
+import CeciRipollPhoto from "../data/photos/ceci-ripoll.jpeg"
 import AnnaRipollPhoto from "../data/photos/anna-ripoll.png"
 import MireiaCanoPhoto from "../data/photos/mireia-cano.jpeg"
 import MireiaOllePhoto from "../data/photos/mireia-olle.jpeg"
