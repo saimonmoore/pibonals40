@@ -26,7 +26,7 @@ const PasswordForm = ({
   setContentUnlocked,
 }) => {
   const [passwordValue, setPasswordValue] = useState("")
-  const placeholder = hint || "Has trovat la paraula Eulàlia?"
+  const placeholder = hint || "Has trobat la paraula Eulàlia?"
 
   useEffect(() => {
     if (password.toLowerCase() === passwordValue.toLowerCase()) {
