@@ -10,6 +10,7 @@ import LaiaDeLasHerasDoc from "../data/documents/laia-delasheras/laia-delasheras
 import GuillemOscaDoc from "../data/documents/guillem-osca/guillem_text.pdf"
 import IreneFornDoc from "../data/documents/irene-forn/E40_Irene.pdf"
 import CeciRipollDoc from "../data/documents/ceci-ripoll/ceci-ripoll-eulalia-40-aniversari.pdf"
+import HelenaCeciSantiDoc from "../data/documents/helena-ceci-santi/FELICITATS EULALIA.pdf"
 
 const DOCS = {
   "neus-chicor": [NeusChicorDoc],
@@ -21,6 +22,7 @@ const DOCS = {
   "guillem-osca": [GuillemOscaDoc],
   "irene-forn": [IreneFornDoc],
   "ceci-ripoll": [CeciRipollDoc],
+  "helena-ceci-santi": [HelenaCeciSantiDoc],
 }
 
 const Gallery = styled.div`

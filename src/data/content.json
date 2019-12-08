@@ -94,6 +94,12 @@
         "hint": null
       },
       {
+        "id": "helena-ceci-santi",
+        "name": "Helena",
+        "password": "masia",
+        "hint": null
+      },
+      {
         "id": "clara-ripoll",
         "name": "Clara Ripoll Pinyol",
         "password": "propia",
