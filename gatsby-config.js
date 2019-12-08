@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Pibon Als 40`,
-    description: `Celebrem els 40 anys maravillosos de l'Eulàlia Pinyol Ollé`,
+    description: `Celebrem els 40 anys meravellosos de l'Eulàlia Pinyol Ollé`,
     author: `@excsm`,
   },
   plugins: [
