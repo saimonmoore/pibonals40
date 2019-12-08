@@ -16,6 +16,9 @@ import IvanPlanesNotePhoto from "../data/extra_photos/ivan-planes/ivan-planes-no
 import IvanPlanesQuimicsPhoto from "../data/extra_photos/ivan-planes/ivan-planes-quimics.jpeg"
 import EsterTorNotePhoto from "../data/extra_photos/ester-tor/ester-tor-note.jpg"
 import EsterOlleNotePhoto from "../data/extra_photos/ester-olle/ester-olle-note.jpeg"
+import GemmaIMartiNotePhoto from "../data/extra_photos/gemma-pinyol/gemma-pinyol-note.jpeg"
+import GemmaIMartiOldPhoto from "../data/extra_photos/gemma-pinyol/gemma-pinyol-old-photo.jpeg"
+import GemmaIMartiPhoto from "../data/extra_photos/gemma-pinyol/gema-pinyol.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -30,6 +33,7 @@ const EXTRA_PHOTOS = {
   "ivan-planes": [IvanPlanesNotePhoto, IvanPlanesQuimicsPhoto],
   "ester-tor": [EsterTorNotePhoto],
   "ester-olle": [EsterOlleNotePhoto],
+  "gemma-pinyol": [GemmaIMartiNotePhoto, GemmaIMartiOldPhoto, GemmaIMartiPhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

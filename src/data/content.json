@@ -116,6 +116,12 @@
         "name": "Mercè Pinyol Balasch",
         "password": "madrastra",
         "hint": null
+      },
+      {
+        "id": "gemma-pinyol",
+        "name": "Gemma i Marti Pinyol",
+        "password": "alegria",
+        "hint": null
       }
     ]
   },
