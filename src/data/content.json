@@ -34,6 +34,12 @@
         "hint": null
       },
       {
+        "id": "irene-forn",
+        "name": "Irene Forn",
+        "password": "aguda",
+        "hint": null
+      },
+      {
         "id": "ivan-planes",
         "name": "Ivan Planes",
         "password": "trempada",

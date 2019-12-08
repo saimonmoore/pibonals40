@@ -8,6 +8,7 @@ import MartaEstebanDoc from "../data/documents/marta-esteban/marta-esteban-wishe
 import BertaCaldersDoc from "../data/documents/berta-calders/berta-calders-wishes.pdf"
 import LaiaDeLasHerasDoc from "../data/documents/laia-delasheras/laia-delasheras-wishes.pdf"
 import GuillemOscaDoc from "../data/documents/guillem-osca/guillem_text.pdf"
+import IreneFornDoc from "../data/documents/irene-forn/E40_Irene.pdf"
 
 const DOCS = {
   "neus-chicor": [NeusChicorDoc],
@@ -17,6 +18,7 @@ const DOCS = {
   "berta-calders": [BertaCaldersDoc],
   "laia-delasheras": [LaiaDeLasHerasDoc],
   "guillem-osca": [GuillemOscaDoc],
+  "irene-forn": [IreneFornDoc],
 }
 
 const Gallery = styled.div`
