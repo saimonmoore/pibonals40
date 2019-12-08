@@ -19,6 +19,13 @@ import EsterOlleNotePhoto from "../data/extra_photos/ester-olle/ester-olle-note.
 import GemmaIMartiNotePhoto from "../data/extra_photos/gemma-pinyol/gemma-pinyol-note.jpeg"
 import GemmaIMartiOldPhoto from "../data/extra_photos/gemma-pinyol/gemma-pinyol-old-photo.jpeg"
 import GemmaIMartiPhoto from "../data/extra_photos/gemma-pinyol/gema-pinyol.jpeg"
+import AnnaRipollCosinsPhoto from "../data/extra_photos/anna-ripoll/Cosins.jpg"
+import AnnaRipollEliaPlatjaPhoto from "../data/extra_photos/anna-ripoll/Elia platja.jpg"
+import AnnaRipollLalaPlatjaPhoto from "../data/extra_photos/anna-ripoll/Lala platja pol.jpg"
+import AnnaRipollLalaSusanaIngridPhoto from "../data/extra_photos/anna-ripoll/Lala Susana i Ingrid.jpg"
+import AnnaRipollLalaCeciPhoto from "../data/extra_photos/anna-ripoll/Lala, Ceci i jo.jpg"
+import AnnaRipollLalaPhoto from "../data/extra_photos/anna-ripoll/Lala.jpg"
+import AnnaRipollNensPhoto from "../data/extra_photos/anna-ripoll/Nens lala i cosins.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -34,6 +41,15 @@ const EXTRA_PHOTOS = {
   "ester-tor": [EsterTorNotePhoto],
   "ester-olle": [EsterOlleNotePhoto],
   "gemma-pinyol": [GemmaIMartiNotePhoto, GemmaIMartiOldPhoto, GemmaIMartiPhoto],
+  "anna-ripoll": [
+    AnnaRipollCosinsPhoto,
+    AnnaRipollEliaPlatjaPhoto,
+    AnnaRipollLalaPlatjaPhoto,
+    AnnaRipollLalaSusanaIngridPhoto,
+    AnnaRipollLalaCeciPhoto,
+    AnnaRipollLalaPhoto,
+    AnnaRipollNensPhoto,
+  ],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]
