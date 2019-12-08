@@ -248,10 +248,16 @@
     "name": "Balenes",
     "description": "Les balenes de la Trepa",
     "content": [
-    {
+      {
         "id": "pili-mariona",
         "name": "Pili",
         "password": "independent",
+        "hint": null
+      },
+      {
+        "id": "eloi-mariona",
+        "name": "Eloi",
+        "password": "empoderada",
         "hint": null
       }
     ]
