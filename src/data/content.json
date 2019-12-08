@@ -230,6 +230,12 @@
         "name": "Agnès Parcerisas",
         "password": "zoom",
         "hint": null
+      },
+      {
+        "id": "mireia-garcia",
+        "name": "Mireia Garcia",
+        "password": "ironia",
+        "hint": null
       }
     ]
   },
