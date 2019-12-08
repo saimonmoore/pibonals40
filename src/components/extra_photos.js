@@ -39,6 +39,7 @@ import HelenaEulaliaPicnic from "../data/extra_photos/helena-ceci-santi/eulalia-
 import HelenaEulaliaPolBebe from "../data/extra_photos/helena-ceci-santi/eulalia-pol-bebe.jpeg"
 import HelenaEulaliaPolPetit from "../data/extra_photos/helena-ceci-santi/eulalia-pol-petit.jpeg"
 import MarisolMonterubioNotePhoto from "../data/extra_photos/marisol-monterubio/marisol-monterubio-note.jpg"
+import ClaraFloritNotePhoto from "../data/extra_photos/clara-florit/clara-florit-note.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -78,6 +79,7 @@ const EXTRA_PHOTOS = {
     HelenaEulaliaFamily,
     HelenaEulaliaPolBebe,
   ],
+  "clara-florit": [ClaraFloritNotePhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

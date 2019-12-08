@@ -242,6 +242,12 @@
         "name": "Marisol Monterubio",
         "password": "sinceridad",
         "hint": null
+      },
+      {
+        "id": "clara-florit",
+        "name": "Clara Florit",
+        "password": "empoderada",
+        "hint": null
       }
     ]
   },
