@@ -38,6 +38,7 @@ import HelenaEulaliaNens from "../data/extra_photos/helena-ceci-santi/eulalia-ne
 import HelenaEulaliaPicnic from "../data/extra_photos/helena-ceci-santi/eulalia-picnic.jpeg"
 import HelenaEulaliaPolBebe from "../data/extra_photos/helena-ceci-santi/eulalia-pol-bebe.jpeg"
 import HelenaEulaliaPolPetit from "../data/extra_photos/helena-ceci-santi/eulalia-pol-petit.jpeg"
+import MarisolMonterubioNotePhoto from "../data/extra_photos/marisol-monterubio/marisol-monterubio-note.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -53,6 +54,7 @@ const EXTRA_PHOTOS = {
   "ester-tor": [EsterTorNotePhoto],
   "ester-olle": [EsterOlleNotePhoto],
   "gemma-pinyol": [GemmaIMartiNotePhoto, GemmaIMartiOldPhoto, GemmaIMartiPhoto],
+  "marisol-monterubio": [MarisolMonterubioNotePhoto],
   "anna-ripoll": [
     AnnaRipollCosinsPhoto,
     AnnaRipollEliaPlatjaPhoto,
