@@ -50,6 +50,12 @@
         "name": "Ivan Planes",
         "password": "trempada",
         "hint": null
+      },
+      {
+        "id": "gemma-solduga",
+        "name": "Gemma Solduga",
+        "password": "celestina",
+        "hint": null
       }
     ]
   },
