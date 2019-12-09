@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
+import createPersistedState from "use-persisted-state"
 
 import Login from "../components/login"
 import Layout from "../components/layout"
@@ -45,6 +46,8 @@ const Groups = ({
   data: {
     allContentJson: { edges },
   },
+  wordsFound,
+  setWordsFound,
 }) => (
   <GroupContainer>
     {edges.map(({ node }, i) => (
@@ -56,7 +59,12 @@ const Groups = ({
         <PeopleInGroup>
           {node.content.map(person => (
             <PersonItem>
-              <Person person={person} key={person.id} />
+              <Person
+                person={person}
+                key={person.id}
+                wordsFound={wordsFound}
+                setWordsFound={setWordsFound}
+              />
             </PersonItem>
           ))}
         </PeopleInGroup>
@@ -84,14 +92,15 @@ const ActiveTag = styled.li`
     list-style: none;
     border-radius: 30px;
     background-color: darkslategray;
+    opacity: 1;
     border: none;
-    padding: 10px 20px;
+    padding: 0px 20px;
     display: inline-block;
     margin: 4px 2px;
     font-size: small;
     text-align: center;
     text-decoration: none;
-    color: antiquewhite
+    color: antiquewhite;
 }
 `
 const TagCloudHeader = styled.h5`
@@ -110,6 +119,7 @@ const TagCloud = ({
   data: {
     allContentJson: { edges },
   },
+  wordsFound,
 }) => {
   const tags = [].concat(
     ...edges
@@ -124,7 +134,11 @@ const TagCloud = ({
       <TagCloudHeader>Les teves paraules...</TagCloudHeader>
       <TagCloudList>
         {Array.from(new Set(tags)).map(tag => {
-          return <InactiveTag>{tag}</InactiveTag>
+          return wordsFound.includes(tag) ? (
+            <ActiveTag>{tag}</ActiveTag>
+          ) : (
+            <InactiveTag>{tag}</InactiveTag>
+          )
         })}
       </TagCloudList>
     </div>
@@ -151,13 +165,20 @@ const IndexPage = () => {
     }
   `)
 
+  const useFoundWordsState = createPersistedState("words-discovered")
+  const [wordsFound, setWordsFound] = useFoundWordsState([])
+
   return (
     <Login password={THE_PASSWORD}>
       <Layout>
         <SEO title="Eulàlia" />
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <TagCloud data={data} />
-          <Groups data={data} />
+          <TagCloud data={data} wordsFound={wordsFound} />
+          <Groups
+            data={data}
+            wordsFound={wordsFound}
+            setWordsFound={setWordsFound}
+          />
         </div>
       </Layout>
     </Login>

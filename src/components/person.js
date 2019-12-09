@@ -24,6 +24,9 @@ const PasswordForm = ({
   hint,
   setAllowContent,
   setContentUnlocked,
+  contentUnlocked,
+  wordsFound,
+  setWordsFound,
 }) => {
   const [passwordValue, setPasswordValue] = useState("")
   const placeholder = hint || "Has trobat la paraula Eulàlia?"
@@ -35,6 +38,12 @@ const PasswordForm = ({
       setShowPasswordForm(false)
     }
   })
+
+  useEffect(() => {
+    if (contentUnlocked) {
+      setWordsFound([...Array.from(new Set(wordsFound.slice())), password])
+    }
+  }, [])
 
   const contentStyle = {
     backgroundColor: "black",
@@ -90,7 +99,7 @@ const PersonContent = ({ id, name, showContent, setShowContent }) => {
   )
 }
 
-const Entry = ({ id, name, password, hint }) => {
+const Entry = ({ id, name, password, hint, wordsFound, setWordsFound }) => {
   const useLockedState = createPersistedState(storageKey(id))
   const [contentUnlocked, setContentUnlocked] = useLockedState(false)
 
@@ -124,6 +133,9 @@ const Entry = ({ id, name, password, hint }) => {
         hint={hint}
         setAllowContent={setAllowContent}
         setContentUnlocked={setContentUnlocked}
+        contentUnlocked={contentUnlocked}
+        wordsFound={wordsFound}
+        setWordsFound={setWordsFound}
       />
       {allowContent && (
         <PersonContent
@@ -137,8 +149,21 @@ const Entry = ({ id, name, password, hint }) => {
   )
 }
 
-const Person = ({ person: { id, name, password, hint } }) => {
-  return <Entry id={id} name={name} password={password} hint={hint} />
+const Person = ({
+  person: { id, name, password, hint },
+  wordsFound,
+  setWordsFound,
+}) => {
+  return (
+    <Entry
+      id={id}
+      name={name}
+      password={password}
+      hint={hint}
+      wordsFound={wordsFound}
+      setWordsFound={setWordsFound}
+    />
+  )
 }
 
 export default Person
