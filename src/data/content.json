@@ -134,6 +134,12 @@
         "name": "Gemma i Marti Pinyol",
         "password": "alegria",
         "hint": null
+      },
+      {
+        "id": "jesusa-pinyol",
+        "name": "Jesusa Pinyol",
+        "password": "cotxe",
+        "hint": null
       }
     ]
   },

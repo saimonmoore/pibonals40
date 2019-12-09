@@ -4,6 +4,7 @@ import styled from "styled-components"
 import createPersistedState from "use-persisted-state"
 
 import Video from "../components/video"
+import Audio from "../components/audio"
 import Document from "../components/document"
 import Photo from "../components/photo"
 import ExtraPhotos from "../components/extra_photos"
@@ -83,6 +84,7 @@ const PersonContent = ({ id, name, showContent, setShowContent }) => {
     >
       <div>
         <Video id={id} />
+        <Audio id={id} />
         <Document id={id} />
         <ExtraPhotos id={id} name={name} />
       </div>
