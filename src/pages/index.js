@@ -65,6 +65,72 @@ const Groups = ({
   </GroupContainer>
 )
 
+const InactiveTag = styled.li`
+    list-style: none;
+    border-radius: 30px;
+    background-color: darkslategray;
+    opacity: 0.5;
+    border: none;
+    padding: 0px 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+`
+const ActiveTag = styled.li`
+    list-style: none;
+    border-radius: 30px;
+    background-color: darkslategray;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite
+}
+`
+const TagCloudHeader = styled.h5`
+  margin-left: 30px;
+  color: antiquewhite;
+`
+
+const TagCloudList = styled.ul`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+`
+
+const TagCloud = ({
+  data: {
+    allContentJson: { edges },
+  },
+}) => {
+  const tags = [].concat(
+    ...edges
+      .map(({ node }) => {
+        return node.content.map(entry => entry.password)
+      })
+      .sort()
+  )
+
+  return (
+    <div>
+      <TagCloudHeader>Les teves paraules...</TagCloudHeader>
+      <TagCloudList>
+        {Array.from(new Set(tags)).map(tag => {
+          return <InactiveTag>{tag}</InactiveTag>
+        })}
+      </TagCloudList>
+    </div>
+  )
+}
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query ContentQuery {
@@ -90,6 +156,7 @@ const IndexPage = () => {
       <Layout>
         <SEO title="Eulàlia" />
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+          <TagCloud data={data} />
           <Groups data={data} />
         </div>
       </Layout>
