@@ -260,6 +260,18 @@
         "name": "Clara Florit",
         "password": "empoderada",
         "hint": null
+      },
+      {
+        "id": "belen-bogarin",
+        "name": "Belen Bogarin",
+        "password": "valenta",
+        "hint": null
+      },
+      {
+        "id": "mariangel-olivieri",
+        "name": "Mariangel Olivieri",
+        "password": "amabilidad",
+        "hint": null
       }
     ]
   },
