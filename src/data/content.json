@@ -331,6 +331,12 @@
         "name": "Leli, Pep, Miquel, Irene",
         "password": "serenor",
         "hint": null
+      },
+      {
+        "id": "silvia-balenes",
+        "name": "Silvia",
+        "password": "alquimia",
+        "hint": null
       }
     ]
   }

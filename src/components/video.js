@@ -22,6 +22,7 @@ import MireiaGarciaVideo from "../data/videos/mireia-garcia.mp4"
 import ElisendaCarrascoVideo from "../data/videos/elisenda-carrasco.mp4"
 import BelenBogarinVideo from "../data/videos/belen-bogarin.mp4"
 import LeliPepVideo from "../data/videos/leli-pep.mp4"
+import SilviaBalenesVideo from "../data/videos/silvia-balenes.mp4"
 
 const VIDEOS = {
   "ester-tor": [EsterTorVideo],
@@ -44,6 +45,7 @@ const VIDEOS = {
   "elisenda-carrasco": [ElisendaCarrascoVideo],
   "belen-bogarin": [BelenBogarinVideo],
   "leli-pep": [LeliPepVideo],
+  "silvia-balenes": [SilviaBalenesVideo],
 }
 
 const Gallery = styled.div`
