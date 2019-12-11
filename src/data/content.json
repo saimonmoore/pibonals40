@@ -334,8 +334,20 @@
       },
       {
         "id": "silvia-balenes",
-        "name": "Silvia",
+        "name": "Silvia, Bruno, Hugo",
         "password": "alquimia",
+        "hint": null
+      },
+      {
+        "id": "espe-jose",
+        "name": "Espe, Jose",
+        "password": "polifacetica",
+        "hint": null
+      },
+      {
+        "id": "mariajose-miguel",
+        "name": "Maria Jose, Miguel",
+        "password": "creativa",
         "hint": null
       }
     ]
