@@ -68,6 +68,12 @@
         "name": "Neus Chicor",
         "password": "erudita",
         "hint": null
+      },
+      {
+        "id": "aina-pongiluppi",
+        "name": "Aina Pongiluppi",
+        "password": "papapa",
+        "hint": null
       }
     ]
   },
@@ -289,6 +295,12 @@
         "id": "ines-almirall",
         "name": "Ines",
         "password": "generosa",
+        "hint": null
+      },
+      {
+        "id": "helen-almirall",
+        "name": "Helen",
+        "password": "detallista",
         "hint": null
       }
     ]
