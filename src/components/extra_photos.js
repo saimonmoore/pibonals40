@@ -47,6 +47,7 @@ import NuriaTarratsNotePhoto from "../data/extra_photos/nuria-tarrats/nuria-tarr
 import MariaPinyolNotePhoto from "../data/extra_photos/maria-pinyol/maria-pinyol-note.jpg"
 import MontserratLluverasNotePhoto from "../data/extra_photos/montserrat-lluveras/montserrat-lluveras-note.jpg"
 import LaraGallartNotePhoto from "../data/extra_photos/lara-gallart/lara-gallart-note.jpg"
+import AriadnaCasasubertaNotePhoto from "../data/extra_photos/ariadna-casacuberta/ariadna-de-casacuberta-note.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -94,6 +95,7 @@ const EXTRA_PHOTOS = {
   "maria-pinyol": [MariaPinyolNotePhoto],
   "montserrat-lluveras": [MontserratLluverasNotePhoto],
   "lara-gallart": [LaraGallartNotePhoto],
+  "ariadna-decasacuberta": [AriadnaCasasubertaNotePhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]
