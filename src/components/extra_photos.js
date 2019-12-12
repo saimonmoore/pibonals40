@@ -43,6 +43,8 @@ import ClaraFloritNotePhoto from "../data/extra_photos/clara-florit/clara-florit
 import GemmaSoldugaNotePhoto from "../data/extra_photos/gemma-solduga/gemma-solduga-note.jpg"
 import MariangelOlivieriNotePhoto from "../data/extra_photos/mariangel-olivieri/mariangel-olivieri-note.jpg"
 import InesAlmirallNotePhoto from "../data/extra_photos/ines-almirall/ines-almirall-note.jpeg"
+import NuriaTarratsNotePhoto from "../data/extra_photos/nuria-tarrats/nuria-tarrats-note.jpg"
+import MariaPinyolNotePhoto from "../data/extra_photos/maria-pinyol/maria-pinyol-note.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -86,6 +88,8 @@ const EXTRA_PHOTOS = {
   "gemma-solduga": [GemmaSoldugaNotePhoto],
   "mariangel-olivieri": [MariangelOlivieriNotePhoto],
   "ines-almirall": [InesAlmirallNotePhoto],
+  "nuria-tarrats": [NuriaTarratsNotePhoto],
+  "maria-pinyol": [MariaPinyolNotePhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

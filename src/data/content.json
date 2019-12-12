@@ -72,7 +72,7 @@
       {
         "id": "aina-pongiluppi",
         "name": "Aina Pongiluppi",
-        "password": "papapa",
+        "password": "torrescassana",
         "hint": null
       }
     ]
@@ -146,6 +146,12 @@
         "name": "Jesusa Pinyol",
         "password": "cotxe",
         "hint": null
+      },
+      {
+        "id": "maria-pinyol",
+        "name": "Maria Pinyol",
+        "password": "canço",
+        "hint": null
       }
     ]
   },
@@ -181,6 +187,12 @@
         "id": "jeni-roda",
         "name": "Jeni Roda",
         "password": "directora",
+        "hint": null
+      },
+      {
+        "id": "nuria-tarrats",
+        "name": "Nuria Tarrats",
+        "password": "somriure",
         "hint": null
       }
     ]
