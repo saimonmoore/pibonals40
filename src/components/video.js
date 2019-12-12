@@ -7,7 +7,6 @@ import MariaVila1Video from "../data/videos/maria-vila-1.mp4"
 import MariaVila2Video from "../data/videos/maria-vila-2.mp4"
 import MariaPratVideo from "../data/videos/maria-prat.mp4"
 import CristinaMayorodomoVideo from "../data/videos/cristina-mayordomo.mp4"
-import CrisFooVideo from "../data/videos/cris-foo.mp4"
 import SaimonMooreVideo from "../data/videos/saimon-moore.mp4"
 import AyeshaMendhamVideo from "../data/videos/ayesha-mendham.mp4"
 import OlgaAdriaVideo from "../data/videos/olga-adria.mp4"
@@ -36,7 +35,6 @@ const VIDEOS = {
   "maria-vila": [MariaVila1Video, MariaVila2Video],
   "maria-prat": [MariaPratVideo],
   "cristina-mayordomo": [CristinaMayorodomoVideo],
-  "cris-foo": [CrisFooVideo],
   "saimon-moore": [SaimonMooreVideo],
   "ayesha-mendham": [AyeshaMendhamVideo],
   "olga-adria": [OlgaAdriaVideo],
