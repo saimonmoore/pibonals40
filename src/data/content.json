@@ -74,6 +74,12 @@
         "name": "Aina Pongiluppi",
         "password": "torrescassana",
         "hint": null
+      },
+      {
+        "id": "lara-gallart",
+        "name": "Lara Gallart",
+        "password": "pibon",
+        "hint": null
       }
     ]
   },
