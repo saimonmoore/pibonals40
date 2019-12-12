@@ -338,7 +338,14 @@
   {
     "name": "Diumenge junts?",
     "description": "Rellena el agujero...",
-    "content": []
+    "content": [
+      {
+        "id": "gio-stano",
+        "name": "Enrico + Giovanna",
+        "password": "comida",
+        "hint": null
+      }
+    ]
   },
   {
     "name": "Balenes",

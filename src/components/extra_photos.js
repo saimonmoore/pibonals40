@@ -50,6 +50,7 @@ import LaraGallartNotePhoto from "../data/extra_photos/lara-gallart/lara-gallart
 import AriadnaCasasubertaNotePhoto from "../data/extra_photos/ariadna-casacuberta/ariadna-de-casacuberta-note.jpg"
 import KonstantinaPapadakiNotePhoto from "../data/extra_photos/konstantina-papadaki/konstantina-papadaki-note.jpeg"
 import KonstantinaPapadakiExtraPhoto from "../data/extra_photos/konstantina-papadaki/konstantina-papadaki-extra.jpeg"
+import GioStanoPhoto from "../data/extra_photos/gio-stano/gio-stano-extra.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -102,6 +103,7 @@ const EXTRA_PHOTOS = {
     KonstantinaPapadakiNotePhoto,
     KonstantinaPapadakiExtraPhoto,
   ],
+  "gio-stano": [GioStanoPhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]
