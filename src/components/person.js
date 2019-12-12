@@ -8,6 +8,7 @@ import Audio from "../components/audio"
 import Document from "../components/document"
 import Photo from "../components/photo"
 import ExtraPhotos from "../components/extra_photos"
+import Iframe from "../components/iframe"
 
 const PasswordField = styled.input`
   height: 50px;
@@ -84,6 +85,7 @@ const PersonContent = ({ id, name, showContent, setShowContent }) => {
     >
       <div>
         <Video id={id} />
+        <Iframe id={id} />
         <Audio id={id} />
         <Document id={id} />
         <ExtraPhotos id={id} name={name} />
