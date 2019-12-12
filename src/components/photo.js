@@ -11,7 +11,7 @@ import MariaVilaPhoto from "../data/photos/maria-vila.jpeg"
 import MariaPratPhoto from "../data/photos/maria-prat.jpeg"
 import CristinaMayorodomoPhoto from "../data/photos/cristina-mayordomo.jpeg"
 import CrisFooPhoto from "../data/photos/cris-foo.png"
-import SaimonMoorePhoto from "../data/photos/saimon-moore.png"
+import SaimonMoorePhoto from "../data/photos/saimon-moore.jpeg"
 import ElisendaCarrascoPhoto from "../data/photos/elisenda-carrasco.png"
 import BertaCaldersPhoto from "../data/photos/berta-calders.jpg"
 import AyeshaMendhamPhoto from "../data/photos/ayesha-mendham.jpeg"
@@ -61,6 +61,7 @@ import JordiBalenesPhoto from "../data/photos/jordi-balenes.jpeg"
 import ElisaBalenesPhoto from "../data/photos/elisa-balenes.jpeg"
 import KonstantinaPapadakiPhoto from "../data/photos/konstantina-papadaki.jpeg"
 import GioStanoPhoto from "../data/photos/gio-stano.jpeg"
+import EulaliaPinyolPhoto from "../data/photos/eulalia-pinyol.jpeg"
 
 const PHOTOS = {
   "ester-tor": EsterTorPhoto,
@@ -122,6 +123,7 @@ const PHOTOS = {
   "elisa-balenes": ElisaBalenesPhoto,
   "konstantina-papadaki": KonstantinaPapadakiPhoto,
   "gio-stano": GioStanoPhoto,
+  "eulalia-pinyol": EulaliaPinyolPhoto,
 }
 
 const mapToPhoto = id => PHOTOS[id]

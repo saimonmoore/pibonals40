@@ -84,24 +84,6 @@
     ]
   },
   {
-    "name": "Cerveses Cetònics",
-    "description": "Mojito anyone?",
-    "content": [
-      {
-        "id": "cristina-mayordomo",
-        "name": "Cristina Mayordomo",
-        "password": "cetogenesi",
-        "hint": null
-      },
-      {
-        "id": "saimon-moore",
-        "name": "Saimon Moore",
-        "password": "papapa",
-        "hint": null
-      }
-    ]
-  },
-  {
     "name": "Família Pinyol",
     "description": "De part de Josep...",
     "content": [
@@ -410,6 +392,30 @@
         "name": "Κωνσταντίνα  Παπαδάκη",
         "password": "ellinika",
         "hint": "Τι να είναι άραγε;"
+      }
+    ]
+  },
+  {
+    "name": "Cerveses Cetònics",
+    "description": "Mojito anyone?",
+    "content": [
+      {
+        "id": "cristina-mayordomo",
+        "name": "Cristina Mayordomo",
+        "password": "cetogenesi",
+        "hint": null
+      },
+      {
+        "id": "eulalia-pinyol",
+        "name": "Eiulaylia Piñol Ollie",
+        "password": "the beginning",
+        "hint": null
+      },
+      {
+        "id": "saimon-moore",
+        "name": "Saimon Moore",
+        "password": "the end",
+        "hint": null
       }
     ]
   }

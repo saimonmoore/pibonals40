@@ -2,9 +2,11 @@ import React from "react"
 import styled from "styled-components"
 
 import JesusaPinyolAudio from "../data/audios/jesusa-pinyol.mp3"
+import EulaliaPinyolAudio from "../data/audios/eulalia-pinyol.mp3"
 
 const AUDIOS = {
   "jesusa-pinyol": [JesusaPinyolAudio],
+  "eulalia-pinyol": [EulaliaPinyolAudio],
 }
 
 const Gallery = styled.div`
