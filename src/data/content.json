@@ -379,6 +379,18 @@
         "name": "Maria Jose, Miguel",
         "password": "creativa",
         "hint": null
+      },
+      {
+        "id": "elisa-balenes",
+        "name": "Elisa",
+        "password": "coral",
+        "hint": null
+      },
+      {
+        "id": "jordi-balenes",
+        "name": "Jordi",
+        "password": "somriure",
+        "hint": null
       }
     ]
   }
