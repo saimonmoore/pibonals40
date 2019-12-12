@@ -393,5 +393,17 @@
         "hint": null
       }
     ]
+  },
+  {
+    "name": "Greek delights...",
+    "description": "Απ'την Πολονια με αγαπη...",
+    "content": [
+      {
+        "id": "konstantina-papadaki",
+        "name": "Κωνσταντίνα  Παπαδάκη",
+        "password": "ellinika",
+        "hint": "Τι να είναι άραγε;"
+      }
+    ]
   }
 ]
