@@ -152,6 +152,12 @@
         "name": "Maria Pinyol",
         "password": "canço",
         "hint": null
+      },
+      {
+        "id": "roser-pinyol",
+        "name": "Marc, Aniol, Mariona, Roser",
+        "password": "papapa",
+        "hint": null
       }
     ]
   },

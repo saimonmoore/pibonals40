@@ -57,6 +57,7 @@ import JosepLiaNaixement1AnyPhoto from "../data/extra_photos/josep-lia/eulalia_n
 import JosepLiaNaixement2AnysPhoto from "../data/extra_photos/josep-lia/eulalia_naixement_2anys.jpg"
 import JosepLiaMatiners3AnysPhoto from "../data/extra_photos/josep-lia/matiners_3 anys.jpeg"
 import JosepLiaPianistaPhoto from "../data/extra_photos/josep-lia/pianista_precoc.jpeg"
+import RoserPinyolPhoto from "../data/extra_photos/roser-pinyol/BateigEulaliaPati.jpg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -118,6 +119,7 @@ const EXTRA_PHOTOS = {
     JosepLiaColoniesStMiquelPhoto,
     JosepLiaPianistaPhoto,
   ],
+  "roser-pinyol": [RoserPinyolPhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]
