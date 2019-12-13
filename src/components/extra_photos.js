@@ -51,6 +51,12 @@ import AriadnaCasasubertaNotePhoto from "../data/extra_photos/ariadna-casacubert
 import KonstantinaPapadakiNotePhoto from "../data/extra_photos/konstantina-papadaki/konstantina-papadaki-note.jpeg"
 import KonstantinaPapadakiExtraPhoto from "../data/extra_photos/konstantina-papadaki/konstantina-papadaki-extra.jpeg"
 import GioStanoPhoto from "../data/extra_photos/gio-stano/gio-stano-extra.jpg"
+import JosepLiaColoniesStMiquelPhoto from "../data/extra_photos/josep-lia/colonies_escola_sant_miquel.jpeg"
+import JosepLiaNaixementPhoto from "../data/extra_photos/josep-lia/eulalia_naixement.jpeg"
+import JosepLiaNaixement1AnyPhoto from "../data/extra_photos/josep-lia/eulalia_naixement_1any.jpeg"
+import JosepLiaNaixement2AnysPhoto from "../data/extra_photos/josep-lia/eulalia_naixement_2anys.jpg"
+import JosepLiaMatiners3AnysPhoto from "../data/extra_photos/josep-lia/matiners_3 anys.jpeg"
+import JosepLiaPianistaPhoto from "../data/extra_photos/josep-lia/pianista_precoc.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -104,6 +110,14 @@ const EXTRA_PHOTOS = {
     KonstantinaPapadakiExtraPhoto,
   ],
   "gio-stano": [GioStanoPhoto],
+  "josep-lia": [
+    JosepLiaNaixementPhoto,
+    JosepLiaNaixement1AnyPhoto,
+    JosepLiaNaixement2AnysPhoto,
+    JosepLiaMatiners3AnysPhoto,
+    JosepLiaColoniesStMiquelPhoto,
+    JosepLiaPianistaPhoto,
+  ],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

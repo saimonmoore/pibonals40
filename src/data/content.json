@@ -84,6 +84,18 @@
     ]
   },
   {
+    "name": "Josep, Lia i Eulàlia",
+    "description": "Family matters...",
+    "content": [
+      {
+        "id": "josep-lia",
+        "name": "Josep i Lia",
+        "password": "papapa",
+        "hint": null
+      }
+    ]
+  },
+  {
     "name": "Família Pinyol",
     "description": "De part de Josep...",
     "content": [
