@@ -55,8 +55,22 @@ import JosepLiaColoniesStMiquelPhoto from "../data/extra_photos/josep-lia/coloni
 import JosepLiaNaixementPhoto from "../data/extra_photos/josep-lia/eulalia_naixement.jpeg"
 import JosepLiaNaixement1AnyPhoto from "../data/extra_photos/josep-lia/eulalia_naixement_1any.jpeg"
 import JosepLiaNaixement2AnysPhoto from "../data/extra_photos/josep-lia/eulalia_naixement_2anys.jpg"
-import JosepLiaMatiners3AnysPhoto from "../data/extra_photos/josep-lia/matiners_3 anys.jpeg"
 import JosepLiaPianistaPhoto from "../data/extra_photos/josep-lia/pianista_precoc.jpeg"
+import JosepLiaAviaMariaPhoto from "../data/extra_photos/josep-lia/Amb_l'àvia_Maria.jpeg"
+import JosepLiaComunio9AnysPhoto from "../data/extra_photos/josep-lia/Comunio_9anys.jpeg"
+import JosepLiaDestendada7AnysPhoto from "../data/extra_photos/josep-lia/Destentada_7anys.jpeg"
+import JosepLiaDoctoratPhoto from "../data/extra_photos/josep-lia/Doctorat_Montreal.jpeg"
+import JosepLiaEmbarassada30AnysPhoto from "../data/extra_photos/josep-lia/Embarassada_30anys.jpeg"
+import JosepLiaEnBracosMarePhoto from "../data/extra_photos/josep-lia/EnBraços_Mare_1any.jpeg"
+import JosepLiaEulalia11AnysPhoto from "../data/extra_photos/josep-lia/Eulalia_11anys.jpeg"
+import JosepLiaEulalia13AnysPhoto from "../data/extra_photos/josep-lia/Eulalia_13anys.jpeg"
+import JosepLiaEuroDisneyPhoto from "../data/extra_photos/josep-lia/Eurodisney.jpeg"
+import JosepLiaMatiners3AnysPhoto from "../data/extra_photos/josep-lia/Matiners_foto_millor.jpeg"
+import JosepLiaFreiburgPhoto from "../data/extra_photos/josep-lia/MentreEstudiava_a_Freibug.jpeg"
+import JosepLiaPosturetaPhoto from "../data/extra_photos/josep-lia/Postureta_10anys.jpeg"
+import JosepLiaPrimeraComunioPhoto from "../data/extra_photos/josep-lia/PrimeraComunio.jpeg"
+import JosepLiaSunion15AnysPhoto from "../data/extra_photos/josep-lia/Sunion_15anys.jpeg"
+import JosepLiaSunionPhoto from "../data/extra_photos/josep-lia/Súnion.jpeg"
 import RoserPinyolPhoto from "../data/extra_photos/roser-pinyol/BateigEulaliaPati.jpg"
 
 const EXTRA_PHOTOS = {
@@ -118,6 +132,21 @@ const EXTRA_PHOTOS = {
     JosepLiaMatiners3AnysPhoto,
     JosepLiaColoniesStMiquelPhoto,
     JosepLiaPianistaPhoto,
+    JosepLiaAviaMariaPhoto,
+    JosepLiaComunio9AnysPhoto,
+    JosepLiaDestendada7AnysPhoto,
+    JosepLiaDoctoratPhoto,
+    JosepLiaEmbarassada30AnysPhoto,
+    JosepLiaEnBracosMarePhoto,
+    JosepLiaEulalia11AnysPhoto,
+    JosepLiaEulalia13AnysPhoto,
+    JosepLiaEuroDisneyPhoto,
+    JosepLiaMatiners3AnysPhoto,
+    JosepLiaFreiburgPhoto,
+    JosepLiaPosturetaPhoto,
+    JosepLiaPrimeraComunioPhoto,
+    JosepLiaSunion15AnysPhoto,
+    JosepLiaSunionPhoto,
   ],
   "roser-pinyol": [RoserPinyolPhoto],
 }
