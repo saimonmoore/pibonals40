@@ -20,11 +20,20 @@ const PeopleInGroup = styled.ul`
   list-style: none;
   height: 250px;
   margin: 0px;
+
+  @media only screen and (max-width: 414px) {
+    flex-direction: column;
+    height: auto;
+  }
 `
 
 const GroupTitle = styled.h4`
   min-width: 175px;
   margin-right: 35px;
+
+  @media only screen and (max-width: 414px) {
+    margin-right: 0px;
+  }
 `
 
 const GroupDescription = styled.div`
@@ -35,10 +44,19 @@ const GroupDescription = styled.div`
 
 const Group = styled.li`
   display: flex;
+
+  @media only screen and (max-width: 414px) {
+    flex-direction: column;
+    align-items: space-around;
+  }
 `
 
 const PersonItem = styled.li`
   height: 250px;
+
+  @media only screen and (max-width: 414px) {
+    padding-left: 80px;
+  }
 `
 
 const Groups = ({

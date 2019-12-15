@@ -32,6 +32,7 @@ const DOCS = {
 const Gallery = styled.div`
   display: flex;
   flex-direction: column;
+  height: 70%;
   margin-bottom: 25px;
 `
 

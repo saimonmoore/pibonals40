@@ -14,6 +14,7 @@ const Gallery = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
+  margin-left: 140px;
 `
 
 const EmbeddedVideo = ({ video }) => (

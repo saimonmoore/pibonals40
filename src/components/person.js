@@ -14,10 +14,26 @@ const PasswordField = styled.input`
   height: 50px;
   width: 770px;
   font-size: 1em;
+
+  @media only screen and (max-width: 414px) {
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 0.9em;
+  }
 `
 
 const storageKey = id => `${id}-unlocked`
 const StyledPerson = styled.div``
+
+const mobileDevice = () => !window.matchMedia("(min-width: 415px)").matches
+
+const contentStyleForDevice = (mobileContentStyle, contentStyle) => {
+  if (mobileDevice()) {
+    return mobileContentStyle
+  } else {
+    return contentStyle
+  }
+}
 
 const PasswordForm = ({
   showPasswordForm,
@@ -43,10 +59,16 @@ const PasswordForm = ({
     border: "none",
   }
 
+  const mobileContentStyle = {
+    backgroundColor: "black",
+    border: "none",
+    marginLeft: "2px",
+  }
+
   return (
     <Popup
       open={showPasswordForm}
-      contentStyle={contentStyle}
+      contentStyle={contentStyleForDevice(mobileContentStyle, contentStyle)}
       modal={true}
       position="center center"
       onClose={() => setShowPasswordForm(false)}
@@ -68,6 +90,12 @@ const contentStyle = {
   border: "none",
 }
 
+const mobileContentStyle = {
+  background: "rgba(255,255,255,0)",
+  border: "none",
+  width: "60%",
+}
+
 const overlayStyle = {
   overflowY: "scroll",
 }
@@ -79,7 +107,7 @@ const PersonContent = ({ id, name, showContent, setShowContent }) => {
       position="center center"
       modal={true}
       lockScroll={true}
-      contentStyle={contentStyle}
+      contentStyle={contentStyleForDevice(mobileContentStyle, contentStyle)}
       overlayStyle={overlayStyle}
       onClose={() => setShowContent(false)}
     >
