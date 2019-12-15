@@ -168,7 +168,7 @@
       {
         "id": "albert-pinyol",
         "name": "Albert Pinyol",
-        "password": "papapa",
+        "password": "freiburg",
         "hint": null
       }
     ]
@@ -318,6 +318,24 @@
     ]
   },
   {
+    "name": "Roig & Co",
+    "description": "Amb propina...",
+    "content": [
+      {
+        "id": "alba-roig",
+        "name": "Alba Roig",
+        "password": "segones",
+        "hint": null
+      },
+      {
+        "id": "xavi-alba",
+        "name": "Alba",
+        "password": "trifassic",
+        "hint": null
+      }
+    ]
+  },
+  {
     "name": "Almirall",
     "description": "Intellectual Proficiency",
     "content": [
@@ -451,6 +469,24 @@
         "id": "saimon-moore",
         "name": "Saimon Moore",
         "password": "the end",
+        "hint": null
+      }
+    ]
+  },
+  {
+    "name": "Murs amb olives",
+    "description": "Berlin i Kalamata",
+    "content": [
+      {
+        "id": "family-pinyol-michalek",
+        "name": "Els Pinyol Michalek",
+        "password": "papapa",
+        "hint": null
+      },
+      {
+        "id": "family-moore-perez",
+        "name": "Els Moore Perez",
+        "password": "papapa",
         "hint": null
       }
     ]
