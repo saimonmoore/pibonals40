@@ -80,6 +80,12 @@
         "name": "Lara Gallart",
         "password": "pibon",
         "hint": null
+      },
+      {
+        "id": "nenes",
+        "name": "Nenes",
+        "password": "cap sunion",
+        "hint": null
       }
     ]
   },
