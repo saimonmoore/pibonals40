@@ -18,7 +18,6 @@ import EsterTorNotePhoto from "../data/extra_photos/ester-tor/ester-tor-note.jpg
 import EsterOlleNotePhoto from "../data/extra_photos/ester-olle/ester-olle-note.jpeg"
 import GemmaIMartiNotePhoto from "../data/extra_photos/gemma-pinyol/gemma-pinyol-note.jpeg"
 import GemmaIMartiOldPhoto from "../data/extra_photos/gemma-pinyol/gemma-pinyol-old-photo.jpeg"
-import GemmaIMartiPhoto from "../data/extra_photos/gemma-pinyol/gema-pinyol.jpeg"
 import AnnaRipollCosinsPhoto from "../data/extra_photos/anna-ripoll/Cosins.jpg"
 import AnnaRipollEliaPlatjaPhoto from "../data/extra_photos/anna-ripoll/Elia platja.jpg"
 import AnnaRipollLalaPlatjaPhoto from "../data/extra_photos/anna-ripoll/Lala platja pol.jpg"
@@ -86,7 +85,7 @@ const EXTRA_PHOTOS = {
   "ivan-planes": [IvanPlanesNotePhoto, IvanPlanesQuimicsPhoto],
   "ester-tor": [EsterTorNotePhoto],
   "ester-olle": [EsterOlleNotePhoto],
-  "gemma-pinyol": [GemmaIMartiNotePhoto, GemmaIMartiOldPhoto, GemmaIMartiPhoto],
+  "gemma-pinyol": [GemmaIMartiNotePhoto, GemmaIMartiOldPhoto],
   "marisol-monterubio": [MarisolMonterubioNotePhoto],
   "anna-ripoll": [
     AnnaRipollCosinsPhoto,
