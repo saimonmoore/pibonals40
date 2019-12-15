@@ -28,6 +28,7 @@ import ElisaBalenesVideo from "../data/videos/elisa-balenes.mp4"
 import KonstantinaPapadakiVideo from "../data/videos/konstantina-papadaki.mp4"
 import GioStanoVideo from "../data/videos/gio-stano.mp4"
 import JoseEspeVideo from "../data/videos/jose-espe.mp4"
+import AlbertPinyolVideo from "../data/videos/albert-pinyol.mp4"
 
 const VIDEOS = {
   "ester-tor": [EsterTorVideo],
@@ -56,6 +57,7 @@ const VIDEOS = {
   "konstantina-papadaki": [KonstantinaPapadakiVideo],
   "gio-stano": [GioStanoVideo],
   "espe-jose": [JoseEspeVideo],
+  "albert-pinyol": [AlbertPinyolVideo],
 }
 
 const Gallery = styled.div`

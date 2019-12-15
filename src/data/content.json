@@ -158,6 +158,12 @@
         "name": "Marc, Aniol, Mariona, Roser",
         "password": "papapa",
         "hint": null
+      },
+      {
+        "id": "albert-pinyol",
+        "name": "Albert Pinyol",
+        "password": "papapa",
+        "hint": null
       }
     ]
   },
