@@ -170,6 +170,12 @@
         "name": "Albert Pinyol",
         "password": "freiburg",
         "hint": null
+      },
+      {
+        "id": "rosa-pinyol",
+        "name": "Rosa i Partaka",
+        "password": "riallera",
+        "hint": null
       }
     ]
   },
