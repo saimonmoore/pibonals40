@@ -218,6 +218,12 @@
         "name": "Montserrat Lluveras",
         "password": "entusiasme",
         "hint": null
+      },
+      {
+        "id": "nuria-camins",
+        "name": "Nuria Camins",
+        "password": "pomes",
+        "hint": null
       }
     ]
   },

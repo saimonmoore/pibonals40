@@ -33,6 +33,7 @@ import CarolinaAlmirallVideo from "../data/videos/carolina-almirall.mp4"
 import HelenAlmirallVideo from "../data/videos/helen-almirall.mp4"
 import NenesSunionVideo from "../data/videos/nenes-sunion.mp4"
 import GemmaPinyolVideo from "../data/videos/gemma-pinyol.mp4"
+import NuriaCaminsVideo from "../data/videos/nuria-camins.mp4"
 
 const VIDEOS = {
   "ester-tor": [EsterTorVideo],
@@ -66,6 +67,7 @@ const VIDEOS = {
   "helen-almirall": [HelenAlmirallVideo],
   nenes: [NenesSunionVideo],
   "gemma-pinyol": [GemmaPinyolVideo],
+  "nuria-camins": [NuriaCaminsVideo],
 }
 
 const Gallery = styled.div`
