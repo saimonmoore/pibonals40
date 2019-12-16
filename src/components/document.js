@@ -13,6 +13,7 @@ import CeciRipollDoc from "../data/documents/ceci-ripoll/ceci-ripoll-eulalia-40-
 import HelenaCeciSantiDoc from "../data/documents/helena-ceci-santi/FELICITATS EULALIA.pdf"
 import RoserPinyolDoc from "../data/documents/roser-pinyol/roser-pinyol-wishes.pdf"
 import AlbaRoigHieroglyficDoc from "../data/documents/alba-roig/Jeroglífic Pinyol.pdf"
+import JosepLiaDoc from "../data/documents/josep-lia/40anys_Eulalia.pdf"
 
 const DOCS = {
   "neus-chicor": [NeusChicorDoc],
@@ -27,6 +28,7 @@ const DOCS = {
   "helena-ceci-santi": [HelenaCeciSantiDoc],
   "roser-pinyol": [RoserPinyolDoc],
   "alba-roig": [AlbaRoigHieroglyficDoc],
+  "josep-lia": [JosepLiaDoc],
 }
 
 const Gallery = styled.div`
