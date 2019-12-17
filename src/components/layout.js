@@ -33,7 +33,8 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer style={{ color: "antiquewhite" }}>
-          ❤️ © 18-12-2019 - 40 anys meravellosos - built with ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
+          ❤️ © 18-12-2019 - 40 anys meravellosos - built with ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
+          ❤️
         </footer>
       </div>
     </>
