@@ -12,7 +12,7 @@ import IreneFornDoc from "../data/documents/irene-forn/E40_Irene.pdf"
 import CeciRipollDoc from "../data/documents/ceci-ripoll/ceci-ripoll-eulalia-40-aniversari.pdf"
 import HelenaCeciSantiDoc from "../data/documents/helena-ceci-santi/FELICITATS EULALIA.pdf"
 import RoserPinyolDoc from "../data/documents/roser-pinyol/roser-pinyol-wishes.pdf"
-import AlbaRoigHieroglyficDoc from "../data/documents/alba-roig/Jeroglífic Pinyol.pdf"
+import AlbaRoigHieroglyficDoc from "../data/documents/alba-roig/JeroglificPinyol.pdf"
 import JosepLiaDoc from "../data/documents/josep-lia/40anys_Eulalia.pdf"
 import MariaPinyolJoanDoc from "../data/documents/maria-pinyol/Eulalia Joan Sant.pdf"
 
