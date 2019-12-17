@@ -78,10 +78,11 @@ const Gallery = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
+  background-color: black;
 `
 
 const HtmlVideo = ({ video }) => (
-  <video controls>
+  <video controls preload="auto">
     <source src={video} type="video/mp4" />
   </video>
 )
