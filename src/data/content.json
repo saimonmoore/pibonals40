@@ -490,13 +490,13 @@
     "description": "Berlin i Kalamata",
     "content": [
       {
-        "id": "family-pinyol-michalek",
+        "id": "michalek-pinyol",
         "name": "Els Pinyol Michalek",
-        "password": "papapa",
+        "password": "Felicitats_Mama",
         "hint": null
       },
       {
-        "id": "family-moore-perez",
+        "id": "moore-perez",
         "name": "Els Moore Perez",
         "password": "papapa",
         "hint": null

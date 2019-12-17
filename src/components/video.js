@@ -35,6 +35,7 @@ import NenesSunionVideo from "../data/videos/nenes-sunion.mp4"
 import GemmaPinyolVideo from "../data/videos/gemma-pinyol.mp4"
 import NuriaCaminsVideo from "../data/videos/nuria-camins.mp4"
 import HoudaAlmirallVideo from "../data/videos/houda.mp4"
+import MichalekPinyolVideo from "../data/videos/michalek-pinyol.mp4"
 
 const VIDEOS = {
   "ester-tor": [EsterTorVideo],
@@ -70,6 +71,7 @@ const VIDEOS = {
   "gemma-pinyol": [GemmaPinyolVideo],
   "nuria-camins": [NuriaCaminsVideo],
   "houda-almirall": [HoudaAlmirallVideo],
+  "michalek-pinyol": [MichalekPinyolVideo],
 }
 
 const Gallery = styled.div`
