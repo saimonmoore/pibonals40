@@ -37,6 +37,7 @@ import NuriaCaminsVideo from "../data/videos/nuria-camins.mp4"
 import HoudaAlmirallVideo from "../data/videos/houda.mp4"
 import MichalekPinyolVideo from "../data/videos/michalek-pinyol.mp4"
 import MoorePerezVideo from "../data/videos/moore-perez.mp4"
+import CristinaOrtodoVideo from "../data/videos/cristina-ortodo.mp4"
 
 const VIDEOS = {
   "ester-tor": [EsterTorVideo],
@@ -74,6 +75,7 @@ const VIDEOS = {
   "houda-almirall": [HoudaAlmirallVideo],
   "michalek-pinyol": [MichalekPinyolVideo],
   "moore-perez": [MoorePerezVideo],
+  "cristina-ortodo": [CristinaOrtodoVideo],
 }
 
 const Gallery = styled.div`

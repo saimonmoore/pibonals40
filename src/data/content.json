@@ -230,6 +230,12 @@
         "name": "Nuria Camins",
         "password": "pomes",
         "hint": null
+      },
+      {
+        "id": "cristina-ortodo",
+        "name": "Cristina Ortodó",
+        "password": "papapa",
+        "hint": null
       }
     ]
   },
