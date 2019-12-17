@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer style={{ color: "antiquewhite" }}>
-          © {new Date().getFullYear()} built with ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
+          ❤️ © 18-12-2019 - 40 anys meravellosos - built with ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️
         </footer>
       </div>
     </>
