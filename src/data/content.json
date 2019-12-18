@@ -56,6 +56,12 @@
         "name": "Gemma Solduga",
         "password": "celestina",
         "hint": null
+      },
+      {
+        "id": "souri",
+        "name": "Souri",
+        "password": "no ho sabia",
+        "hint": "no ho sabia :("
       }
     ]
   },
