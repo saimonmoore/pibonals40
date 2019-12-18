@@ -75,6 +75,7 @@ import AlbaRoigNotePhoto from "../data/extra_photos/alba-roig/alba-roig-note.jpg
 import XaviAlbaRoigNotePhoto from "../data/extra_photos/xavi-alba/xavi-alba-note.jpeg"
 import NuriaCaminsEulaliaPhoto from "../data/extra_photos/nuria-camins/nuria-eulalia.jpeg"
 import RosaPinyolNotePhoto from "../data/extra_photos/rosa-pinyol/PTK+Rosa_text.jpeg"
+import MontserratPinyolFamilyPhoto from "../data/extra_photos/montserrat-pinyol/Eulalia_Montse_Elia_Pol.jpeg"
 
 const EXTRA_PHOTOS = {
   "berta-calders": [EulaliaBertaPhoto, BertaFamilyPhoto],
@@ -156,6 +157,7 @@ const EXTRA_PHOTOS = {
   "xavi-alba": [XaviAlbaRoigNotePhoto],
   "nuria-camins": [NuriaCaminsEulaliaPhoto],
   "rosa-pinyol": [RosaPinyolNotePhoto],
+  "montserrat-pinyol": [MontserratPinyolFamilyPhoto],
 }
 
 const mapToPhoto = id => EXTRA_PHOTOS[id]

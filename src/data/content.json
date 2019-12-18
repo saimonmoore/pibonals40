@@ -176,6 +176,12 @@
         "name": "Rosa i Partaka",
         "password": "riallera",
         "hint": null
+      },
+      {
+        "id": "montserrat-pinyol",
+        "name": "Montserrat Pinyol",
+        "password": "lala",
+        "hint": null
       }
     ]
   },
