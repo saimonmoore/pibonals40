@@ -27,7 +27,7 @@ import AmandaLaportePhoto from "../data/photos/amanada-laporte.jpeg"
 import LaiaDeLasHerasPhoto from "../data/photos/laia-de-las-heras.jpeg"
 import AriadnaDeCasacubertaPhoto from "../data/photos/ariadna-decasacuberta.jpeg"
 import ClaraRipollPhoto from "../data/photos/clara-ripoll.jpeg"
-import RogerAmadePhoto from "../data/photos/roger-amade.jpeg"
+import RogerAmadeuPhoto from "../data/photos/roger-amade.jpeg"
 import GuillemOscaPhoto from "../data/photos/guillem_osca.jpeg"
 import IvanPlanesPhoto from "../data/photos/ivan-planes.jpeg"
 import EsterOllePhoto from "../data/photos/ester-olle.jpeg"
@@ -103,7 +103,7 @@ const PHOTOS = {
   "laia-delasheras": LaiaDeLasHerasPhoto,
   "ariadna-decasacuberta": AriadnaDeCasacubertaPhoto,
   "clara-ripoll": ClaraRipollPhoto,
-  "roger-amade": RogerAmadePhoto,
+  "roger-amadeu": RogerAmadeuPhoto,
   "guillem-osca": GuillemOscaPhoto,
   "ivan-planes": IvanPlanesPhoto,
   "ester-olle": EsterOllePhoto,
